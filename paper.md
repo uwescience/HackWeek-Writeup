@@ -5,6 +5,7 @@
 *Please add your name...*
 
 - *Jake VanderPlas*
+- *Karthik Ram*
 
 ## Introduction
 
@@ -22,9 +23,11 @@ Who? What? Why?
 
 ### What to do before
 
--
--
--
+- Participant selection
+    -  axes of diversity
+- Outcome planning
+- Funding
+- Duration of event (since not all will be week long)
 
 ### What to do during
 
