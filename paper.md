@@ -1,4 +1,6 @@
-# Best Practices in Hack Weeks
+# How and Why to run a Hack Week
+
+*This document is licensed under a CC-BY-ND License. See the file `LICENSE` for more details.*
 
 ## Authors
 
@@ -45,12 +47,17 @@ Organize around a subject (Astro) or a technique (Gaussian Processes) or a modal
 - Balance between academics (say) and industry people?
 - Balance between scheduled program and unconference breakouts?
 
+## Participant selection
+
+- THE most important part of the operation
+- importance of open methods
+- axes of diversity
+- algorithmic selection
+
 ## Organizing a Hack Week
 
 ### What to do before
 
-- Participant selection
-    -  axes of diversity
 - How to find the right space for a hack week
 - Outcome planning
 - Funding
