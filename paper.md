@@ -82,4 +82,10 @@ Organize around a subject (Astro) or a technique (Gaussian Processes) or a modal
 - How to evaluate a hack week?
 - What are measures of success? How do we define success in the first place?
 
+## Dos and Donts
+
+- A place to put in small things that work or DON'T work.
+- If something is a big point, it should get a section above.
+- If something is a small point, it can live here in a grab-bag of points.
+
 ## Conclusion & Summary
