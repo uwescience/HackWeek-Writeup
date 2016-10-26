@@ -98,7 +98,7 @@ stuff here
 
 - Anyone thanked here: *Feel free to move up to the Author list!*
 
-- It is a pleasure to thank Laura Noren (NYU) for help on ethics and IRB.
+- It is a pleasure to thank Laura Norén (NYU) for help on ethics and IRB.
 
 - This work was partially supported by the Moore-Sloan Data Science Environments
 at UC Berkeley, New York University, and the University of Washington.
