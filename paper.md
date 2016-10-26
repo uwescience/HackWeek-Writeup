@@ -90,4 +90,15 @@ Organize around a subject (Astro) or a technique (Gaussian Processes) or a modal
 - If something is a big point, it should get a section above.
 - If something is a small point, it can live here in a grab-bag of points.
 
-## Conclusion & Summary
+## Conclusions and Discussion
+
+stuff here
+
+### Acknowledgements
+
+- Anyone thanked here: *Feel free to move up to the Author list!*
+
+- It is a pleasure to thank Laura Noren (NYU) for help on ethics and IRB.
+
+- This work was partially supported by the Moore-Sloan Data Science Environments
+at UC Berkeley, New York University, and the University of Washington.
