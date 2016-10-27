@@ -58,6 +58,7 @@ Organize around a subject (Astro) or a technique (Gaussian Processes) or a modal
 
 ### What to do before
 
+- WAY BEFORE: get IRB approval to track and study participants! This is a hard one, but very, very valuable.
 - How to find the right space for a hack week
 - Outcome planning
 - Funding
@@ -79,7 +80,25 @@ Organize around a subject (Astro) or a technique (Gaussian Processes) or a modal
 
 ## Measures of success
 
+- See notes on IRB above; maybe expand on that here.
 - How to evaluate a hack week?
 - What are measures of success? How do we define success in the first place?
 
-## Conclusion & Summary
+## Dos and Donts
+
+- A place to put in small things that work or DON'T work.
+- If something is a big point, it should get a section above.
+- If something is a small point, it can live here in a grab-bag of points.
+
+## Conclusions and Discussion
+
+stuff here
+
+### Acknowledgements
+
+- Anyone thanked here: *Feel free to move up to the Author list!*
+
+- It is a pleasure to thank Laura Norén (NYU) for help on ethics and IRB.
+
+- This work was partially supported by the Moore-Sloan Data Science Environments
+at UC Berkeley, New York University, and the University of Washington.
