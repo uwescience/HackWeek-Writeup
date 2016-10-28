@@ -10,19 +10,42 @@
 - **Daniela Huppenkothen** *(NYU)*
 - **David W. Hogg** *(NYU) (CCA)*
 
-### Executive summary
+## Executive summary
 
 *put one-page summary here...*
 
+## Introduction
+
+As data becomes cheaper to gather and store, research across a wide range of disciplines has become increasingly reliant on computational workflows involving a familiarity with aspects of statistical modeling, machine learning, scalable computation, and related skills.
+At the same time, formal university curricula have been relatively slow to offer courses in these important topics: the slack in this area has often been picked-up by extra-curricular, third-party workshops.
+A well-known example is the Software Carpentry and Data Carpentry workshops, whose interdisciplinary workshops in research computing skills have reached XXX participants since its inception in 1998 ([ref](https://f1000research.com/articles/3-62/v2)).
+At the same time, there has been a rise in the number of domain-specific summer schools focusing on statistics and computation within their field; in the Astronomy community, one of the longest-running has been at the Penn State Center for Astrostatistics, which in 2016 hosted the twelfth *Summer School in Statistics for Astronomers*, consisting of "intensive week covering basic statistical inference, several fields of applied statistics, and the R computing environment" ([source](http://astrostatistics.psu.edu/su16/)).
+Another model of extra-curricular meeting is less pedagogical and more project-focused, perhaps typified by the dotAstronomy meetings, a week-long conference series which focuses specifically on leveraging web technologies for novel applications in Astronomy ([ref](http://dotastronomy.com)).
+A shorter, but similar-spirit meeting has been the Hack Days at the annual American Astronomical Society meetings, where Astronomers gather to work on short projects, both computational and non-computational in nature.
+
+In broad-brush, pedagogically-focused workshops and summer schools tend to follow a classic academic model where novices learn a skillset from experts, while project-focused workshops focus on people collaboratively exercising the skillset they already have.
+A disadvantage of the summer school model is that it can tends to focus on a one-way flow of information from instructor to student, and can discount the potential contributions by students.
+A disadvantage of the hackathon model is the common perception (whether accu rate or not) that the week is designed for experts in technical tools, which may discourage others from attending.
+In 2014, we started AstroHackWeek to try to fill the gaps between these models. The HackWeek model combines pedagogy (often focused on statistical and computational techniques) with room for collaborative hacks or creative projects, with the goal of encouraging collaboration and learning among people at various stages of their career.
+
+![alt text](fig/HackSpectrum.png "Comparison of Extracurricular Workshop Models")
+
+As of the publication of this paper, we have run five such HackWeek events: three focused on Astronomy, one focused on Neuroscience, and one focused on Geophysics.
+Below we will share some of the philosophy behind the HackWeek model, practical lessons we have learned in organizing these events, and recommendations for future HackWeeks in other disciplines.
+
+
 ## Why run a Hack Week?
+
+- axes: pedagogical vs not, project-oriented vs not, interdisciplinary vs single-discipline, 
 
 - Something about informal education
 - Peer learning
 - At summer schools, the young learn from the old. At a Hack Week, the learning goes all ways.
 
 ### Objectives and goals
-Teaching and working.
-Recruiting?
+
+- Teaching and working.
+- Recruiting?
 
 ### Audience
 All the diversities.
@@ -30,7 +53,11 @@ All the diversities.
 ### Themes
 Organize around a subject (Astro) or a technique (Gaussian Processes) or a modality (imaging)?
 
+- note the relationship to the XD (e.g. ImageXD) meetings put on by berkeley
+
 ## Nomenclature
+
+The hack week
 
 - Hack week vs hack day vs hackathon vs. sprint vs ???
 - focus on *who* is involved, degree of focus, importance of pedagogy, etc.
