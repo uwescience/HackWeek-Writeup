@@ -5,10 +5,16 @@
 ## Authors
 
 *Please add your name...*
+
 - **Jake VanderPlas** *(UW)*
+
 - **Karthik Ram** *(Berkeley)*
+
 - **Daniela Huppenkothen** *(NYU)*
+
 - **David W. Hogg** *(NYU) (CCA)*
+
+- **Ariel Rokem** *(UW)*
 
 ## Executive summary
 
@@ -21,7 +27,7 @@ At the same time, formal university curricula have been relatively slow to offer
 A well-known example is the Software Carpentry and Data Carpentry workshops, whose interdisciplinary workshops in research computing skills have reached XXX participants since its inception in 1998 ([ref](https://f1000research.com/articles/3-62/v2)).
 At the same time, there has been a rise in the number of domain-specific summer schools focusing on statistics and computation within their field; in the Astronomy community, one of the longest-running has been at the Penn State Center for Astrostatistics, which in 2016 hosted the twelfth *Summer School in Statistics for Astronomers*, consisting of "intensive week covering basic statistical inference, several fields of applied statistics, and the R computing environment" ([source](http://astrostatistics.psu.edu/su16/)).
 Another model of extra-curricular meeting is less pedagogical and more project-focused, perhaps typified by the dotAstronomy meetings, a week-long conference series which focuses specifically on leveraging web technologies for novel applications in Astronomy ([ref](http://dotastronomy.com)).
-A shorter, but similar-spirit meeting has been the Hack Days at the annual American Astronomical Society meetings, where Astronomers gather to work on short projects, both computational and non-computational in nature.
+Shorter, but similar-spirit meetings have starte in conjunction with conferences, such Hack Days at the annual American Astronomical Society meetings, where Astronomers gather to work on short projects, both computational and non-computational in nature, or the Brainhack hackathons that take place in conjunction with meetings of the Organization for Human Brain Mapping and the Society for Neuroscience.
 
 In broad-brush, pedagogically-focused workshops and summer schools tend to follow a classic academic model where novices learn a skillset from experts, while project-focused workshops focus on people collaboratively exercising the skillset they already have.
 A disadvantage of the summer school model is that it can tends to focus on a one-way flow of information from instructor to student, and can discount the potential contributions by students.
@@ -33,18 +39,34 @@ In 2014, we started AstroHackWeek to try to fill the gaps between these models. 
 As of the publication of this paper, we have run five such HackWeek events: three focused on Astronomy, one focused on Neuroscience, and one focused on Geophysics.
 Below we will share some of the philosophy behind the HackWeek model, practical lessons we have learned in organizing these events, and recommendations for future HackWeeks in other disciplines.
 
-
 ## Why run a Hack Week?
 
-- axes: pedagogical vs not, project-oriented vs not, interdisciplinary vs single-discipline, 
+### What is a hackathon?
+
+Hackathons are typically short sprint-like events, focused on creating
+technological solutions in the form of small projects, or 'hacks'. They were
+originally held by organizations focused on technology, such as companies or
+software conferences. But, as espoused in constructivist educational philosophy
+hackathons also provide an excellent opportunity to learn by doing
+[@Bransford2000-lu, @Papert1980-fh]. Furthermore, because of their ad-hoc
+and focused nature, they are also a very fertile venue for creating
+collaborations across disciplinary and topical boundaries. With this in mind,
+hackathons around scientific topics, designed to foster collaboration
+[@Groen2015-cj, @Moller2013-ah], or provide an opportunity to learn
+[@Kienzler2015-zu, @Lamers2014-xf], are becoming more common.
+
+- axes: pedagogical vs not, project-oriented vs not, interdisciplinary vs single-discipline,
 
 - Something about informal education
+
 - Peer learning
+
 - At summer schools, the young learn from the old. At a Hack Week, the learning goes all ways.
 
 ### Objectives and goals
 
 - Teaching and working.
+
 - Recruiting?
 
 ### Audience
@@ -60,25 +82,38 @@ Organize around a subject (Astro) or a technique (Gaussian Processes) or a modal
 The hack week
 
 - Hack week vs hack day vs hackathon vs. sprint vs ???
+
 - focus on *who* is involved, degree of focus, importance of pedagogy, etc.
+
 - Why are some words disfavored in some communities; implications of different terms.
 
 ## Design considerations
 
 - Length of time
+
 - Amount of time per day
+
 - In the university or in the wild?
+
 - Balance between education and working?
+
 - Do you imagine people writing papers or playing in sandboxes?
+  While not a requirement, or a necessary outcome, it is possible to make the report on the a part of the . For example, Neurohackweek provides a venue for participants to publish a short (two-page) "project report" summarizing the hack that participants did during the week of NHW.
+
 - Do you imagine people doing many projects or just one?
+
 - Balance between academics (say) and industry people?
+
 - Balance between scheduled program and unconference breakouts?
 
 ## Participant selection
 
 - THE most important part of the operation
+
 - importance of open methods
+
 - axes of diversity
+
 - algorithmic selection
 
 ## Organizing a Hack Week
@@ -86,35 +121,52 @@ The hack week
 ### What to do before
 
 - WAY BEFORE: get IRB approval to track and study participants! This is a hard one, but very, very valuable.
+
 - How to find the right space for a hack week
+
 - Outcome planning
+
 - Funding
-    - Importance of (student) travel grants
-    - Contemporary triviality of fundraising!
+
+- Importance of (student) travel grants
+
+- Contemporary triviality of fundraising! [ARIEL: Is that really a thing? Maybe only true for Astro?]
+
 - Duration of event (since not all will be week long)
 
 ### What to do during
 
 - Properties of a good tutorial / how to include expert participants in teaching
+
 - Facilitating break-out sessions
+
 - Facilitating hack sessions
+
+- Recording what happens (e.g., video, the role of social media)
+
 
 ### What to do after
 
 - Follow-up survey and feedback
+
 - Track publications and people
+
 - Maintain email contact and build the hacking community.
 
 ## Measures of success
 
 - See notes on IRB above; maybe expand on that here.
+
 - How to evaluate a hack week?
+
 - What are measures of success? How do we define success in the first place?
 
 ## Dos and Donts
 
 - A place to put in small things that work or DON'T work.
+
 - If something is a big point, it should get a section above.
+
 - If something is a small point, it can live here in a grab-bag of points.
 
 ## Conclusions and Discussion
