@@ -41,6 +41,19 @@ Below we will share some of the philosophy behind the HackWeek model, practical 
 
 ## Why run a Hack Week?
 
+There are several reasons to run a hackweek of the sort described here. The first and main reason is that it is fun.
+
+- Education and training: Some of these events are more focused on education on specific skills than othere see Figure \ref{fig:spectrum}. However, even those that are not focused on skills-development will include extensive discussions on reproducible and open science practices, providing participants who do not have experience with these concepts and tools with exposure. Because many of these issues relate to conventions and community norms, rather than skills, the discussion of these issues in a group setting, with a diverse set of community members, from different institutions lends these discussions additional effect, that would not be possible in discussions within any individual research group. Participants can then serve as "ambassadors" of these practices, to report back to their groups and departments about the practices they have seen, and their adoption by other researchers in the field.
+
+- Tool development
+
+- Community building
+
+- Interdisciplinary research: a short time-bounded event
+
+- Recruitment: the close interaction with research trainees provides an opportunity to learn about their interests and their abilities in close quarters. This kind of extended opportunity for interaction and "on-the-job" testing is considered a  as an example, one of the participants in Neurohackweek 2016 will be joining the eScience Institute as a post-doc in Fall of 2017 (and as an instructor in Neurohackweek 2017).
+-
+
 ### What is a hackathon?
 
 Hackathons are typically short sprint-like events, focused on creating
