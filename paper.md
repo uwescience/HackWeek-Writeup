@@ -13,6 +13,7 @@
 - **Daniela Huppenkothen** *(NYU)*
 
 - **David W. Hogg** *(NYU) (CCA)*
+- **Anthony Arendt** *(UW)*
 
 - **Ariel Rokem** *(UW)*
 
@@ -31,12 +32,12 @@ Shorter, but similar-spirit meetings have started in conjunction with conference
 
 In broad-brush, pedagogically-focused workshops and summer schools tend to follow a classic academic model where novices learn a skillset from experts, while project-focused workshops focus on people collaboratively exercising the skillset they already have.
 A disadvantage of the summer school model is that it can tends to focus on a one-way flow of information from instructor to student, and can discount the potential contributions by students.
-A disadvantage of the hackathon model is the common perception (whether accu rate or not) that the week is designed for experts in technical tools, which may discourage others from attending.
+A disadvantage of the hackathon model is the common perception (whether accurate or not) that the week is designed for experts in technical tools, which may discourage others from attending.
 In 2014, we started AstroHackWeek to try to fill the gaps between these models. The HackWeek model combines pedagogy (often focused on statistical and computational techniques) with room for collaborative hacks or creative projects, with the goal of encouraging collaboration and learning among people at various stages of their career.
 
 ![alt text](fig/HackSpectrum.png "Comparison of Extracurricular Workshop Models")
 
-As of the publication of this paper, we have run five such HackWeek events: three focused on Astronomy, one focused on Neuroscience, and one focused on Geophysics.
+As of the publication of this paper, we have run five such HackWeek events: three focused on Astronomy, one focused on Neuroscience, and one focused on Geospatial data science.
 Below we will share some of the philosophy behind the HackWeek model, practical lessons we have learned in organizing these events, and recommendations for future HackWeeks in other disciplines.
 
 ## Why run a Hack Week?
@@ -82,9 +83,14 @@ hackathons around scientific topics, designed to foster collaboration
 - Teaching and working.
 
 - Recruiting?
+- building a community of practitioners
+- developing new open-source software for a specific domain
+- networking (participants get to meet people in industry/academia)
+- provide a pathway to a fully open-source workflow 
 
 ### Audience
 All the diversities.
+
 
 ### Themes
 Organize around a subject (Astro) or a technique (Gaussian Processes) or a modality (imaging)?
@@ -129,6 +135,8 @@ The hack week
 - axes of diversity
 
 - algorithmic selection
+- balancing the need for inclusivity with practical challenges of educating absolute beginners (e.g. those with no coding skills); how to filter for that in a fair way?
+- designing the most effective poll to help decide on the above elements
 
 ## Organizing a Hack Week
 
@@ -147,6 +155,12 @@ The hack week
 - Contemporary triviality of fundraising! [ARIEL: Is that really a thing? Maybe only true for Astro?]
 
 - Duration of event (since not all will be week long)
+- assembly of the organizing committee: challenging since many involved are doing so in a volunteer capacity or within service category of academic appointment. Important to set clear expectations expectations, define roles for everyone, have a system for accountability, decide on leadership structure, map out a timeline and be clear on what kinds of time committments are involved.  
+- curriculum development: balancing breadth with depth; what are the best practices within our community that we want to convey? Software carpentry templates are fantastic (standardizes format, potential to submit lessons to SWC in the future) but require extra time commitment from tutorial developers; balancing intro material (git/github, basic Python, Anaconda) with domain-specific tools? 
+- best way to get everyone using the software: Docker vs. SageMathCloud vs. JupyterHub vs. Anaconda? 
+- recruiting high-quality teachers; inviting people from industry
+- provide project templates in advance
+- decide what minimum requirements participants must complete before arriving, and ensuring that gets done
 
 ### What to do during
 
@@ -155,6 +169,12 @@ The hack week
 - Facilitating break-out sessions
 
 - Facilitating hack sessions
+- creating an inclusive, welcoming and safe learning environment
+- articulating and enforcing a code of conduct
+- helping everyone feel like they belong (e.g. overcoming the intimidation inherent in the hackathon communities)
+- how to handle conflicts as they arise, e.g. complaints of problems feeling included in groups
+- how to define the project teams: let groups self-organize, or provide more structure?
+- provide ample food and coffee (don't use UAF catering...)
 
 - Recording what happens (e.g., video, the role of social media)
 
@@ -175,7 +195,7 @@ The hack week
 
 - What are measures of success? How do we define success in the first place?
 
-## Dos and Donts
+## Dos and Don'ts
 
 - A place to put in small things that work or DON'T work.
 
