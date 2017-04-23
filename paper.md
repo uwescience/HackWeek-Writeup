@@ -24,10 +24,10 @@
 
 As data becomes cheaper to gather and store, research across a wide range of disciplines has become increasingly reliant on computational workflows involving a familiarity with aspects of statistical modeling, machine learning, scalable computation, and related skills.
 At the same time, formal university curricula have been relatively slow to offer courses in these important topics: the slack in this area has often been picked-up by extra-curricular, third-party workshops.
-A well-known example is the Software Carpentry and Data Carpentry workshops, whose interdisciplinary workshops in research computing skills have reached XXX participants since its inception in 1998 ([ref](https://f1000research.com/articles/3-62/v2)).
+A well-known example is the Software Carpentry and Data Carpentry workshops, whose interdisciplinary workshops in research computing skills have reached more than 16,000 participants since its inception in 1998 ([ref](https://f1000research.com/articles/3-62/v2)).
 At the same time, there has been a rise in the number of domain-specific summer schools focusing on statistics and computation within their field; in the Astronomy community, one of the longest-running has been at the Penn State Center for Astrostatistics, which in 2016 hosted the twelfth *Summer School in Statistics for Astronomers*, consisting of "intensive week covering basic statistical inference, several fields of applied statistics, and the R computing environment" ([source](http://astrostatistics.psu.edu/su16/)).
 Another model of extra-curricular meeting is less pedagogical and more project-focused, perhaps typified by the dotAstronomy meetings, a week-long conference series which focuses specifically on leveraging web technologies for novel applications in Astronomy ([ref](http://dotastronomy.com)).
-Shorter, but similar-spirit meetings have starte in conjunction with conferences, such Hack Days at the annual American Astronomical Society meetings, where Astronomers gather to work on short projects, both computational and non-computational in nature, or the Brainhack hackathons that take place in conjunction with meetings of the Organization for Human Brain Mapping and the Society for Neuroscience.
+Shorter, but similar-spirit meetings have started in conjunction with conferences, such Hack Days at the annual American Astronomical Society meetings, where Astronomers gather to work on short projects, both computational and non-computational in nature, or the Brainhack hackathons that take place in conjunction with meetings of the Organization for Human Brain Mapping and the Society for Neuroscience ([ref](https://gigascience.biomedcentral.com/articles/10.1186/s13742-016-0121-x)).
 
 In broad-brush, pedagogically-focused workshops and summer schools tend to follow a classic academic model where novices learn a skillset from experts, while project-focused workshops focus on people collaboratively exercising the skillset they already have.
 A disadvantage of the summer school model is that it can tends to focus on a one-way flow of information from instructor to student, and can discount the potential contributions by students.
@@ -40,6 +40,20 @@ As of the publication of this paper, we have run five such HackWeek events: thre
 Below we will share some of the philosophy behind the HackWeek model, practical lessons we have learned in organizing these events, and recommendations for future HackWeeks in other disciplines.
 
 ## Why run a Hack Week?
+
+There are several reasons to run a hackweek of the sort described here.
+
+- Education and training: Some of these events are more focused on education on specific skills than others (see Figure \ref{fig:spectrum}). However, even those that are not explicitely focused on skills-development will include extensive discussions on reproducible and open science practices, providing participants who do not have experience with these concepts and tools with exposure to them. Because many of these issues relate to conventions and community norms, rather than skills, the discussion of these issues in a group setting, with a diverse set of community members, from different institutions lends these discussions additional effect, that would not be possible in discussions within any individual research group. Participants can then serve as "ambassadors" of these practices, to report back to their groups and departments about the practices they have seen, and their adoption by other researchers in the field. Furthermore, the kind of co-working that is inherent to the hackweek format facilitates lateral knolwedge transfer -- learning from each other about practices and tools of the trade that are helpful in research in the field, but are not necessarily described in research products such as papers, or even in the software implementations. These can even be small "tricks of the trade" that participants can show each other, while they are working in the same project, or even side-by-side in the same space. Thus, even in the cases in which the focus of the event is not focused on specific learning objectives, it can still provide a platform for substantial learning.
+
+- Tool development: hackweeks present an opportunity for computational tool developers to get together with users of these tools, and to critically evaluate the use of the tools in addressing particular scientific questions.
+
+- Community building: a hackweek is an opportunity to galvanize a community within a field that cares about computational issues, and relates to specific open-source software projects. For example, because of its focus on free and open-source tools, Neurohackweek helps galvanize the Neuroimaging in Python (http://nipy.org) community.
+
+- Interdisciplinary research: a short time-bounded event is an excellent opportunity to experiment with concepts, questions and methods that traverse boundaries within a discipline (e.g., between researchers using different methods, or studying different systems, or experimental models), as well as across disciplines. These experiments are often discouraged in traditional disciplinary research, because of the difficulty to achieve results in both disciplines, and because of the risks inherent in taking a less trodden path ([ref](https://www.ncbi.nlm.nih.gov/labs/articles/12970550/), [ref](https://www.researchgate.net/publication/8126355_EDUCATION_Risks_and_Rewards_of_an_Interdisciplinary_Research_Path)). This is despite the fact that interdisciplinary research can also be very impactful (XXX need examples, references). A diversity of research backgrounds, and interactions with scientists from other disciplines, further facilitates these experiments. The time-bounded nature of the hackweek format mitigates some of the perceived risk of trying out mini-projects that are inherently more interdisciplinary.
+
+- Recruitment: the close interaction with research trainees provides an opportunity to learn about their interests and their abilities in close quarters. This kind of extended opportunity for interaction and "on-the-job" testing is considered an excellent form of evaluation of prospective job candidates [citation needed], and a hackweek provides an excellent opportunity to observe potential trainees in this manner. As an example, one of the participants in Neurohackweek 2016 will be joining the eScience Institute as a post-doc in Fall of 2017 (and as an instructor in Neurohackweek 2017).
+
+- It's fun: the opportunity to focus for a week on a slightly more whimsical and adventurous sort of scientific activities can be both fruitful, and enjoyable.
 
 ### What is a hackathon?
 
@@ -75,7 +89,7 @@ All the diversities.
 ### Themes
 Organize around a subject (Astro) or a technique (Gaussian Processes) or a modality (imaging)?
 
-- note the relationship to the XD (e.g. ImageXD) meetings put on by berkeley
+- note the relationship to the XD (e.g. ImageXD) meetings put on by berkeley/uw
 
 ## Nomenclature
 
