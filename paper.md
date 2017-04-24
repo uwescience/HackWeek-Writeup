@@ -42,26 +42,16 @@ Below we will share some of the philosophy behind the HackWeek model, practical 
 
 ## Why run a Hack Week?
 
+
 ### What is a hackathon?
 
-Hackathons are time-bounded, collaborative events that have historically focused on software development and technology design. In recent years hackathons have expanded into a model for intensive short-term collaboration across many different organizations. Core elements of these collaborative events include opportunities for networking, the strengthening of social ties and community-building [@Drouhard2017]. 
+Hackathons are time-bounded, collaborative events that bring together participants around a shared challenge or learning objective [@Decker2015]. Hackathons have historically focused on software development and technology design as a way to motivate innovation within industry. In recent years, hackathons have expanded into a model for intensive short-term collaboration across disciplinary and topical boundaries. In addition, because of their focus on participatory engagement, hackathons provide numerous opportunities to 'learn by doing' within a constructivist educational framework [@Bransford2000-lu, @Papert1980-fh]. With this in mind, hackathons around scientific topics, designed to foster collaboration [@Groen2015-cj, @Moller2013-ah], or provide an opportunity to learn [@Kienzler2015-zu, @Lamers2014-xf], are becoming more common.
 
-But, as espoused in constructivist educational philosophy
-hackathons also provide an excellent opportunity to learn by doing
-[@Bransford2000-lu, @Papert1980-fh]. Furthermore, because of their ad-hoc
-and focused nature, they are also a very fertile venue for creating
-collaborations across disciplinary and topical boundaries. With this in mind,
-hackathons around scientific topics, designed to foster collaboration
-[@Groen2015-cj, @Moller2013-ah], or provide an opportunity to learn
-[@Kienzler2015-zu, @Lamers2014-xf], are becoming more common.
+The recent surge in popularity of these events has resulted in a broad spectrum of ways to define the hackathon. Following the typology of [@Drouhard2017], we assert that core elements of all hackathons include opportunities for networking, the strengthening of social ties and the building of community connections, both within and across disciplines. Building on these core elements, there are various implementations of the hackathon concept with respect to the overall purpose, mode of participation, style of work environment and motivation [@Drouhard2017]. "Catalytic" hackathons seek novel project ideas aimed at solving a tractable, well-defined challenge. "Contributive" hackathons seek to improve to an existing effort through focused work on discrete tasks, for example to make up for deficiencies in an ongoing project. Finally, "Communal" hackathons place a strong focus on building a culture of practice and developing resources within an existing community, often defined by a specific domain of knowledge.   
 
-- axes: pedagogical vs not, project-oriented vs not, interdisciplinary vs single-discipline,
+Our past hackweek events most closely follow the communal hackathon model as it applies to scientific communities of practice. Our approach aims to combine structured, tutorial-style instruction with informal education and peer learning opportunities occurring within projects and hacks. Within the communal model we see these tools being implemented across a spectrum of approaches, the design of which depends on the specific characteristics of each community of practice (Figure 1). For example, the AstroHack community is relatively small and has a foundation of shared approaches and software implementations, allowing for a greater focus on project work over formal tutorials. In contrast, both the Neuro and Geohack communities covered a broader range of sub-disciplines and had a less cohesive set of existing practices, calling for greater focus on tutorials and education. 
 
-- Something about informal education
-
-- Peer learning
-
-- At summer schools, the young learn from the old. At a Hack Week, the learning goes all ways.
+We note that the terminology for these events is constantly evolving, and that the "hackathon" concept may have implicit connotations that are disfavored in some communities. One criticism of hackathons is that they propel the "geek" stereotype and may present a barrier to creating an inclusive working environment, especially for women [@Decker2015]. 
 
 ### Objectives and goals
 
@@ -84,13 +74,7 @@ Organize around a subject (Astro) or a technique (Gaussian Processes) or a modal
 
 ## Nomenclature
 
-The hack week
-
-- Hack week vs hack day vs hackathon vs. sprint vs ???
-
-- focus on *who* is involved, degree of focus, importance of pedagogy, etc.
-
-- Why are some words disfavored in some communities; implications of different terms.
+- merge this section with the "What is a Hackathon?" section? 
 
 ## Design considerations
 
@@ -159,7 +143,7 @@ The hack week
 - helping everyone feel like they belong (e.g. overcoming the intimidation inherent in the hackathon communities)
 - how to handle conflicts as they arise, e.g. complaints of problems feeling included in groups
 - how to define the project teams: let groups self-organize, or provide more structure?
-- provide ample food and coffee (don't use UAF catering...)
+- provide ample food and coffee 
 
 - Recording what happens (e.g., video, the role of social media)
 
