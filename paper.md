@@ -28,7 +28,7 @@ At the same time, formal university curricula have been relatively slow to offer
 A well-known example is the Software Carpentry and Data Carpentry workshops, whose interdisciplinary workshops in research computing skills have reached XXX participants since its inception in 1998 ([ref](https://f1000research.com/articles/3-62/v2)).
 At the same time, there has been a rise in the number of domain-specific summer schools focusing on statistics and computation within their field; in the Astronomy community, one of the longest-running has been at the Penn State Center for Astrostatistics, which in 2016 hosted the twelfth *Summer School in Statistics for Astronomers*, consisting of "intensive week covering basic statistical inference, several fields of applied statistics, and the R computing environment" ([source](http://astrostatistics.psu.edu/su16/)).
 Another model of extra-curricular meeting is less pedagogical and more project-focused, perhaps typified by the dotAstronomy meetings, a week-long conference series which focuses specifically on leveraging web technologies for novel applications in Astronomy ([ref](http://dotastronomy.com)).
-Shorter, but similar-spirit meetings have starte in conjunction with conferences, such Hack Days at the annual American Astronomical Society meetings, where Astronomers gather to work on short projects, both computational and non-computational in nature, or the Brainhack hackathons that take place in conjunction with meetings of the Organization for Human Brain Mapping and the Society for Neuroscience.
+Shorter, but similar-spirit meetings have started in conjunction with conferences, such Hack Days at the annual American Astronomical Society meetings, where Astronomers gather to work on short projects, both computational and non-computational in nature, or the Brainhack hackathons that take place in conjunction with meetings of the Organization for Human Brain Mapping and the Society for Neuroscience.
 
 In broad-brush, pedagogically-focused workshops and summer schools tend to follow a classic academic model where novices learn a skillset from experts, while project-focused workshops focus on people collaboratively exercising the skillset they already have.
 A disadvantage of the summer school model is that it can tends to focus on a one-way flow of information from instructor to student, and can discount the potential contributions by students.
@@ -44,10 +44,9 @@ Below we will share some of the philosophy behind the HackWeek model, practical 
 
 ### What is a hackathon?
 
-Hackathons are typically short sprint-like events, focused on creating
-technological solutions in the form of small projects, or 'hacks'. They were
-originally held by organizations focused on technology, such as companies or
-software conferences. But, as espoused in constructivist educational philosophy
+Hackathons are time-bounded, collaborative events that have historically focused on software development and technology design. In recent years hackathons have expanded into a model for intensive short-term collaboration across many different organizations. Core elements of these collaborative events include opportunities for networking, the strengthening of social ties and community-building [@Drouhard2017]. 
+
+But, as espoused in constructivist educational philosophy
 hackathons also provide an excellent opportunity to learn by doing
 [@Bransford2000-lu, @Papert1980-fh]. Furthermore, because of their ad-hoc
 and focused nature, they are also a very fertile venue for creating
