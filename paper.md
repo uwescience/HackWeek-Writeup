@@ -147,25 +147,54 @@ The space itself should be large and ideally configurable, with moveable tables 
 #### Funding
 
 Closely tied to the issue of location is workshop funding. In principle, as little of the costs as possible should fall on participants, to widely enable participation especially for participants from institutions, countries and demographics that are generally underrepresented at other meetings. Locations that offer some funding or provide free space are preferable to those that do not. 
-At Astro Hack Week, we have found that travel grants are of crucial importance especially to undergraduates, students from minority backgrounds and participants from underrepresented countries. In particular if increasing diversity in the more technical aspects of a field is one of the workshop's goals, providing enough travel funding for between five to ten participants can make a significant difference in allowing minority researchers to attend.
+At Astro Hack Week, we have found that travel grants are of crucial importance especially to undergraduates, students from minority backgrounds and participants from underrepresented countries. During the organization of Python in Astronomy 2017, we found that minority participants disproportionally decline to attend, and often cite lack of sufficient travel funding as the primary reason. In particular if increasing diversity in the more technical aspects of a field is one of the workshop's goals, providing enough travel funding for between five to ten participants can make a significant difference in allowing minority researchers to attend. 
 
-- WAY BEFORE: get IRB approval to track and study participants! This is a hard one, but very, very valuable.
+#### Code of Conduct
 
-- How to find the right space for a hack week
+A hack week should have a code of conduct. Organizers should be aware that disparities in backgrounds, knowledge and experience, together with the close collaboration much of the hacking requires, makes for potentially treacherous grounds, especially when it comes to language. The goal of every hack week should be to provide a comfortable, inclusive environment for participants to learn and work, thus the organizing committee should discuss well in advance what belongs into the code of conduct. Additionally, we stress the importance of the organizing committee to discuss how to enforce the code of conduct, and play through different scenarios and their possible resolution in advance, in order to be prepared should a situation should arise in reality during the workshop.
+A part of this could and should be the recognition that participants (and, indeed, members of the organizing committee) may occasionally violate the code of conduct in minor ways, and allow for tools and mechanisms to resolve these infractions. Major infractions, conversely, should be taken seriously and in severe cases lead to exclusion of participants. 
+Aside from important provisions banning discrimination on the basis of demographic characteristics, there may be domain- or workshop-specific clauses that may require recognition. For example, as communities move between programming languages or techniques, shaming participants for their choice of method or language should be strongly discouraged, since it will make participants feel unwelcome, defensive and inhibit learning on a larger scale. 
 
-- Outcome planning
+### During a Hack Week
 
-- Funding
+Unlike traditional conference, where the programme is generally set by pre-selected talks, hack weeks require additional involvement from the organization committee during the hack week itself. 
 
-- Importance of (student) travel grants
+#### Tutorials
+Tutorials generally present themselves as one of the most useful components of a hack week, but also require careful preparation by both committee and speaker. In particular the mixed audience at a hack week, with beginners and experts in any given topic in the same room, necessitates planning. Because often, one of the primary objectives of a hack week may be community building, keeping the group together and focused on the tutorial is generally desirable. 
+There is reasonable a concern that long tutorials may separate the group into those who follow the tutorial in order to gain new knowledge, and those who already possess experience in the tutorial's topic and turn their attention to other subjects as the tutorial is ongoing. In practice, this concern can be mitigated by explicitly involving experienced participants in the tutorials. Teachers may call upon experts in the audience to identify themselves and effectively act as teaching assistants. This can be framed as advantageous for expert participants in terms of testing their own understand as well as improve their own skills in teaching the topic in question. This way, the concern of separating the group can be turned into a community-building exercise instead, a strategy that has proven successful at Astro Hack Week in several instances. 
+It is noteworthy that in practice, the mixed audience tends to lead to impostor syndrome among the speakers, who lose their explicit status as expert among the participants. It is therefore imperative that speakers are made aware very early about the audience so that they can plan their tutorial accordingly. It also helps to make them aware of the potential of using expert participants as teaching assistants during exercises and include them in the teaching, rather than see them as adversaries who may seek to correct them. Conversely, experts may be used to ask pointed questions about fundamental, important concepts, both in order to help the audience gain a deeper understanding and encourage questions especially from junior participants, who may be hesitant to ask questions due to their own impostor syndrome. At Astro Hack Week, we encourage the organizing committee and experienced participants to ask questions, particularly when they know the answer but think the concept may not yet be clear to parts of the audience. This has in the past led to exchanges between experts that have greatly contributed to the tutorials in ways that were both unplanned and unexpected for all involved, beginners and experts alike. Including experts in the teaching also takes pressure off teachers during exercises, when demands on the speaker are generally high. At Astro Hack Week, we have found that unexpected 
 
-- Contemporary triviality of fundraising! [ARIEL: Is that really a thing? Maybe only true for Astro?]
+The content and structure of the tutorials should generally depend on topic and audience. We explicitly call them *tutorials* rather than *lectures*, because the collaborative and hands-on nature of hack weeks lends itself more towards practical tutorials rather than more traditional, lecture-style knowledge transfer. That is in agreement with participant surveys, which show a preference towards hands-on exercises. In practice, it also limits the risk for fatiguing the participants with too much new knowledge. But this has several implications. First and foremost, it greatly reduces the amount of theoretical knowledge that can be imparted on any given topic. If teaching, say, machine learning would be difficult in one or two three-hour blocks, it is complicated even more so if a substantial fraction of those three-hour blocks is reserved for participants working on exercises. Tutorials at hack weeks therefore can never cover a topic thoroughly, and must remain fairly shallow introductions into subjects. Primary goals should be (1) to allow participants a first, practical exploration of the methods covered on their own data sets, and (2) provide an entry point for a more thorough study outside the hack week. This requires initial careful curation by the organizing committee, and close collaboration with the speakers in terms of what can and cannot be covered. In particular with speakers who may be foreign to the domain, this may also require in-depth communication about which particular methods or subjects could be appropriate and useful for the specific audience. In some cases, it may be advisable to recommend some theoretical texts as reading before attending the hack week, though it is likely that speakers should not count on every participant arriving with the same knowledge baseline. Because of their practical nature, however, software requirements should be announced as early and clearly as possible, with the expectation that participants will have installed necessary software in advance. It may be helpful to designate some time early on in the meeting to trouble-shoot installations before tutorials begin in order to avoid loosing significant time during the actual tutorials.
 
-- Duration of event (since not all will be week long)
+To summarize, a good tutorial will
+* be very clearly tailored to the audience and narrowly scoped,
+* strictly limit the amount of lecture-style teaching to less than 50\% ,
+* use experts in the audience to ask key questions and act as teaching assistants during exercises
+* communicate technical requirements at least a week before the hack week
+
+**[Can someone who is more familiar than me with Software Carpentry write a few sentences about some of their practices which can be useful for hack week tutorials, like red/yellow post-its for signalling?]
+
+#### Break-Out Sessions
+
+It is almost impossible to organize tutorials that are so well-scoped that there is no mis-match between the tutorial content and the audience's immediate needs. Because speakers and organizing committee are unlikely to know in advance in detail what projects and data sets participants will bring, there is a high chance that there will be topics and methods brought up during the hack week that are of broad interest to the audience, but not covered in the pre-planned tutorials. Here, break-out sessions offer an alternative: short (30-45 minute) tutorials that are fairly spontaneously organized (with as little a lead time of a few hours) and often taught by expert participants in the audience. These tutorials can be a more in-depth treatment of one specific method of interest (e.g. Gaussian Processes, K-Means Clustering, Deep Learning), or cover a practical skill that may be useful to the audience, but is not formally part of the hack week (this is especially the case for skills related to software-development, such as code testing, documentation, profiling). They are generally more informal than tutorials and can be taught to a subset of the group rather than requiring all participants to attend.
+Break-out sessions should be limited to one or two a day, in order to allow participants to attend break-out sessions without having to sacrifice a significant fraction of their time reserved for project-work. It is also possible to intentionally leave a tutorial slot free, to be filled with one or two self-organized break-out sessions instead of a pre-planned tutorial. In practical terms, it is advisable to keep a physical board with requests and potential teachers in a prominent location during the week. Decisions on which option to choose from the list can be done via an informal voting process, under the condition that a volunteer to hold the tutorial is found. Giving a break-out session can be a daunting task: while some experts may have relevant tutorials already prepared from other workshops, often it requires holding a thirty-minute talk with little to no preparation. Organizers can and should take steps to provide a positive, encouraging environment for participants to volunteer their knowledge. They should particularly encourage junior participants, who may often be the most knowledgable about the topics usually requested, to volunteer for break-out sessions. They provide a valuable teaching experience in a friendly environment and offer the opportunity of networking with the larger community. 
+
+To summarize, break-out sessions
+* consist of short tutorials about a specific topic or practical skill not covered in the tutorials
+* are more informal and may be taught to a subset of interested participants
+* should be limited to 1-2 per day and no longer than 45 minutes to avoid conflicts with project-work
+* can be daunting to teach, especially for junior participants, and requires the organizing committee to be pro-active about encouraging volunteer teachers
+
+#### Hack Sessions
+
+
+#### Impostor Syndrome
+
+
+
+
 
 ### What to do during
-
-- Properties of a good tutorial / how to include expert participants in teaching
 
 - Facilitating break-out sessions
 
