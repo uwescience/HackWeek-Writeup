@@ -122,6 +122,16 @@ As mentioned above, the balance between pedagogy and working depends both on the
 
 Hack week outcomes, in turn, depend strongly on participants and are often a function of their interests and seniority. A number of attendees arrive with the stated goal of writing a specific scientific article, though these tend to be more advanced participants with significant pre-knowledge of both hackathons and their topic of interest. Conversely, many attendees arrive with the stated goal of learning about a specific topic (such as machine learning) and bring a specific data set they believe the new knowledge may be applicable to. This leads to a wide variety of project types from sandbox-style explorations to focused work efforts. It is worth noting that while a scientific paper need not be the stated goal of a hack (and is unlikely to be completed in the short time allocated in any case), results may still be published as short reports or unconference proceedings. For example, Neurohack week provides a venue for participants to publish a short (two-page) "project report" summarizing the hack that participants did during the week of NHW. Similarly, Python in Astronomy gathers all documents produced during the workshop (unconference transcripts, talk summaries, descriptions of sprint and hack projects) into citeable unconference proceedings.
 
+
+## Measures of success
+
+- See notes on IRB above; maybe expand on that here.
+
+- How to evaluate a hack week?
+
+- What are measures of success? How do we define success in the first place?
+
+
 ## Conclusions and Discussion
 
 stuff here
@@ -177,7 +187,7 @@ To summarize, a good tutorial will
 * use experts in the audience to ask key questions and act as teaching assistants during exercises
 * communicate technical requirements at least a week before the hack week
 
-**[Can someone who is more familiar than me with Software Carpentry write a few sentences about some of their practices which can be useful for hack week tutorials, like red/yellow post-its for signalling?]
+**[Can someone who is more familiar than me with Software Carpentry write a few sentences about some of their practices which can be useful for hack week tutorials, like red/yellow post-its for signalling?]**
 
 #### Break-Out Sessions
 
@@ -202,11 +212,6 @@ Because hack weeks are generally fairly long for the format (hackathons are ofte
 
 
 
-
-
-- Recording what happens (e.g., video, the role of social media)
-
-
 ### What to do after
 
 - Follow-up survey and feedback
@@ -215,13 +220,6 @@ Because hack weeks are generally fairly long for the format (hackathons are ofte
 
 - Maintain email contact and build the hacking community.
 
-## Measures of success
-
-- See notes on IRB above; maybe expand on that here.
-
-- How to evaluate a hack week?
-
-- What are measures of success? How do we define success in the first place?
 
 ## Dos and Donts
 
