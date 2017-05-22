@@ -18,6 +18,8 @@
 
 - **Anthony Arendt** *(UW)*
 
+- **Tal Yarkoni** *(UT Austin)*
+
 ## Executive summary
 
 *put one-page summary here...*
@@ -63,9 +65,9 @@ Hackathons are time-bounded, collaborative events that bring together participan
 
 The recent surge in popularity of these events has resulted in a broad spectrum of ways to define the hackathon. Following the typology of [@Drouhard2017], we assert that core elements of all hackathons include opportunities for networking, the strengthening of social ties and the building of community connections, both within and across disciplines. Building on these core elements, there are various implementations of the hackathon concept with respect to the overall purpose, mode of participation, style of work environment and motivation [@Drouhard2017]. "Catalytic" hackathons seek novel project ideas aimed at solving a tractable, well-defined challenge. "Contributive" hackathons seek to improve to an existing effort through focused work on discrete tasks, for example to make up for deficiencies in an ongoing project. Finally, "Communal" hackathons place a strong focus on building a culture of practice and developing resources within an existing community, often defined by a specific domain of knowledge.   
 
-Our past hackweek events most closely follow the communal hackathon model as it applies to scientific communities of practice. Our approach aims to combine structured, tutorial-style instruction with informal education and peer learning opportunities occurring within projects and hacks. Within the communal model we see these tools being implemented across a spectrum of approaches, the design of which depends on the specific characteristics of each community of practice (Figure 1). For example, the AstroHack community is relatively small and has a foundation of shared approaches and software implementations, allowing for a greater focus on project work over formal tutorials. In contrast, both the Neuro and Geohack communities covered a broader range of sub-disciplines and had a less cohesive set of existing practices, calling for greater focus on tutorials and education. 
+Our past hackweek events most closely follow the communal hackathon model as it applies to scientific communities of practice. Our approach aims to combine structured, tutorial-style instruction with informal education and peer learning opportunities occurring within projects and hacks. Within the communal model we see these tools being implemented across a spectrum of approaches, the design of which depends on the specific characteristics of each community of practice (Figure 1). For example, the AstroHack community is relatively small and has a foundation of shared approaches and software implementations, allowing for a greater focus on project work over formal tutorials. In contrast, both the Neuro and Geohack communities covered a broader range of sub-disciplines and had a less cohesive set of existing practices, calling for greater focus on tutorials and education.
 
-We note that the terminology for these events is constantly evolving, and that the "hackathon" concept may have implicit connotations that are disfavored in some communities. One criticism of hackathons is that they propel the "geek" stereotype and may present a barrier to creating an inclusive working environment, especially for women [@Decker2015]. 
+We note that the terminology for these events is constantly evolving, and that the "hackathon" concept may have implicit connotations that are disfavored in some communities. One criticism of hackathons is that they propel the "geek" stereotype and may present a barrier to creating an inclusive working environment, especially for women [@Decker2015].
 
 ### Objectives and goals
 
