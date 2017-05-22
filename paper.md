@@ -18,6 +18,8 @@
 
 - **Anthony Arendt** *(UW)*
 
+- **Tal Yarkoni** *(UT Austin)*
+
 ## Executive summary
 
 *put one-page summary here...*
@@ -51,7 +53,6 @@ The recent surge in popularity of these events has resulted in a broad spectrum 
 Our past hack week events most closely follow the communal hackathon model as it applies to scientific communities of practice. Our approach aims to combine structured, tutorial-style instruction with informal education and peer learning opportunities occurring within projects and hacks. Within the communal model we see these tools being implemented across a spectrum of approaches, the design of which depends on the specific characteristics of each community of practice (Figure 1). For example, the astronomy community is relatively small and has a foundation of shared approaches and software implementations, allowing for a greater focus on project work over formal tutorials. In contrast, both the neuro- and geoscience communities covered a broader range of sub-disciplines and had a less cohesive set of existing practices, calling for greater focus on tutorials and education.
 
 We note that the terminology for these events is constantly evolving, and that the "hackathon" concept may have implicit connotations that are disfavored in some communities (see also below). One criticism of hackathons is that they propel the "geek" stereotype and may present a barrier to creating an inclusive working environment, especially for women [@Decker2015].
-
 
 ## Why run a Hack Week?
 
