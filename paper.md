@@ -234,7 +234,9 @@ On a larger scale, it might be useful to track measures of success more long-ter
 
 - Anyone thanked here: *Feel free to move up to the Author list!*
 
-- It is a pleasure to thank Laura Nor�n (NYU) for help on ethics and IRB.
+- It is a pleasure to thank Laura Norén (NYU) for help on ethics and IRB.
 
 - This work was partially supported by the Moore-Sloan Data Science Environments
 at UC Berkeley, New York University, and the University of Washington.
+
+- Neurohackweek is supported through a grant from the National Institute for Mental Health (1R25MH112480)
