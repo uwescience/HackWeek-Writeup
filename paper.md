@@ -140,7 +140,7 @@ For practical purposes, we recommend an approach that combines all of these metr
 >  **Example 1**: In 2015, a small team used the opportunity of Astro Hack Week to found a new software project called Stingray\footnote{https://github.com/StingraySoftware/stingray} with the goal of providing well-tested, well-documented implementations of algorithms for time series analysis often used in X-ray astronomy.  
 > The start of this project was facilitated by the collaborative environment at Astro Hack Week, including expertise in how to start/run open-source projects, role models of successful projects, and an environment encouraging scientific risk taking. 
 > Since its beginnings at Astro Hack Week, Stingray has matured into an enduring collaboration within the community with five active maintainers, a number of contributors and four Google Summer of Code projects.
-> **Example 2**:
+> **Example 2**: In 2016, a geohack week project team used Google Earth Engine to explore spatial patterns in climate, topography and population data with the goal of mapping the most suitable locations for renewable energy sites in the United States. The team used machine learning algorithms in conjunction with the powerful hardware resources provided by Google Earth Engine. George Richardson, one of the project leads, now works for a renewable resource company in Seattle. More information can be found [here](http://georgerichardson.net/2017/04/10/searching-for-energy-in-a-random-forest/).
 > **Example 3**: 
 
 
