@@ -153,7 +153,6 @@ Among the participants that had not put code or data online before the event, we
 ![alt text](fig/eval_new_open_science_all.png "Attitudes towards open science among participants who had previously not put any code online.")
 
 
-
 ## Conclusions and Discussion
 
 stuff here
