@@ -232,15 +232,6 @@ For tracking tangible outcomes, a central real-time document used during the wor
 On a larger scale, it might be useful to track measures of success more long-term. Those could for example be publication networks for scientists who attended the workshop, their publications as well as their career development. For this purpose, it is useful to keep a way to contact previous participants, via a mailing list or real-time messaging services like _Matrix_ or _Slack_.
 
 
-## Dos and Donts
-
-- A place to put in small things that work or DON'T work.
-
-- If something is a big point, it should get a section above.
-
-- If something is a small point, it can live here in a grab-bag of points.
-
-
 ### Acknowledgements
 
 - Anyone thanked here: *Feel free to move up to the Author list!*
