@@ -25,8 +25,14 @@
 %% Notice placement of commas and superscripts and use of &
 %% in the author list
 
-\author{Jake VanderPlas, Karthik Ram, Daniela Huppenkothen, David W. Hogg, Ariel Rokem, Anthony Arendt \& Tal Yarkoni}
+\author{Daniela Huppenkothen, Anthony Arendt, David W. Hogg, Karthik Ram, Jake VanderPlas, Tal Yarkoni, \& Ariel Rokem}
 
+
+\makeatletter
+\let\saved@includegraphics\includegraphics
+\AtBeginDocument{\let\includegraphics\saved@includegraphics}
+\renewenvironment*{figure}{\@float{figure}}{\end@float}
+\makeatother
 
 \begin{document}
 
@@ -36,6 +42,7 @@
  \item UW Seattle
  \item NYU
  \item UC Berkeley
+ \item UT Austin
 \end{affiliations}
 
 \input{sections/abstract}
@@ -95,6 +102,7 @@
 % reference.
 % \end{thebibliography}
 
+\section{References}
 \bibliographystyle{naturemag}
 \bibliography{paper}
 
@@ -103,7 +111,7 @@
 %% Use \item's to separate, default label is "Acknowledgements"
 
 \begin{addendum}
- \item{Anyone thanked here: *Feel free to move up to the Author list!* It is a pleasure to thank Laura Nor\'{e}n (NYU) for help on ethics and IRB. This work was partially supported by the Moore-Sloan Data Science Environments at UC Berkeley, New York University, and the University of Washington. Neurohack week is supported through a grant from the National Institute for Mental Health (1R25MH112480). Daniela Huppenkothen is partially supported by the James Arthur Postdoctoral Fellowship at NYU.}
+ \item{The authors would like to thank Laura Nor\'{e}n (NYU) for help on ethics and IRB, Stuart Geiger for helping to formulate the questionnaires that served as the basis for the results presented here. This work was partially supported by the Moore-Sloan Data Science Environments at UC Berkeley, New York University, and the University of Washington. Neurohack week is supported through a grant from the National Institute for Mental Health (1R25MH112480). Daniela Huppenkothen is partially supported by the James Arthur Postdoctoral Fellowship at NYU.}
  \item[Competing Interests]{The authors declare that they have no competing financial interests.}
  \item[Correspondence]{Correspondence and requests for materials should be addressed to D.Huppenkothen.~(email: daniela.huppenkothen@nyu.edu).}
 \end{addendum}
