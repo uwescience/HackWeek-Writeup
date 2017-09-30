@@ -2,20 +2,24 @@
 
 Hack weeks differ from traditional conferences or summer schools in that knowledge transfer occurs across many levels of seniority, disciplinary boundaries, and novelty of the topics discussed.
 In addition, a substantial amount of hack week content is generated during the event itself, requiring active participation from participants.
-Therefore in order to maximize learning outcomes and the liklihood for collaborative exchanges, it is crucial that the participant selection process be carried out with considerable care.
+Therefore in order to maximize learning outcomes and the likelihood for collaborative exchanges, it is crucial that the participant selection process be carried out with considerable care.
+
 In our experience, a participant group that is diverse across categories of diversity, gender, discipline and career track helps to ensure we meet these objectives.
-To achieve this diversity, we advocate for a selection process that is as transparent as possible, enabling particiants to hold organizers accountable for their selection decisions.
+To achieve this diversity, we advocate for a selection process that is as transparent as possible, enabling participants to hold organizers accountable for their selection decisions.
 Transparency is necessary for applicants to understand acceptance/rejection decisions, and accountability is of crucial importance for the detection of inherent biases in the selection, which may harm both the event's success as well as the larger community.
+
 One way to maximize transparency in the selection process is to minimize human decision making steps that introduce biases, and to transfer some steps to an algorithm that is easily interpreted, openly available, and can be designed to counter the perpetuation of intrinsic biases. 
 We work to achieve this by first assessing the merit of each candidate with respect to the overall goals of the hack week.
 We try to minimize bias in this step by blinding ourselves to a candidate's other attributes, including name and other personal information, and assess their candidacy based soley on questions asked specifically for this purpose.
 When doing this procedure for a large enough sample, it is unlikely that the resulting pool of acceptable candidates is smaller than the number of available spaces at the workshop.
+
 The second step in the selection procedure then requires tie-breaking between equally acceptable candidates.
 It is here where one may impose outside constraints on the selection based on the goals of the workshop.
 If multiple competing constraints are considered, this task essentially becomes a complex optimization problem, for which algorithms exist that will outperform any human selection procedure.
 
 One solution to this optimization procedure is implemented in the software \textit{entrofy}\footnote{\url{http://github.com/dhuppenkothen/entrofy}}. The algorithm aims to find a group of participants that together match as closely as possible a requested distribution on specified dimensions (e.g., career stage, geographic location, etc.), to meet pre-set fractions set by the organizers.
 For example, organizers may require that half of the participants (or as close as possible to that) be graduate students, while also maximizing the number of different countries from which participants originate.
+
 It is worth noting that this algorithm is vulnerable toward biases in two ways: firstly, humans will set the target fractions for any category of interest.
 If these targets reproduce the distribution of the overall sample of candidates, the selection will become essentially random.
 Any human biases involved in setting these target fractions will be perpetuated in the selection procedure.
