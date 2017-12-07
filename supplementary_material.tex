@@ -3,22 +3,22 @@
 %% Written by Peter Czoschke, 26 February 2004
 %%
 
-\documentclass{nature}
+%\documentclass{nature}
 
 %% make sure you have the nature.cls and naturemag.bst files where
 %% LaTeX can find them
-\usepackage{graphicx}	% Including figure files
-\usepackage{amsmath}	% Advanced maths commands
-\usepackage{amssymb}	% Extra maths symbols
-\usepackage{natbib}
+%\usepackage{graphicx}	% Including figure files
+%\usepackage{amsmath}	% Advanced maths commands
+%\usepackage{amssymb}	% Extra maths symbols
+%\usepackage{natbib}
 
-\usepackage{hyperref}
-\usepackage{url}
-\usepackage{microtype}
-\usepackage{rotating}
-\usepackage{booktabs}
-\usepackage{threeparttable}
-\usepackage{tabularx}
+%\usepackage{hyperref}
+%\usepackage{url}
+%\usepackage{microtype}
+%\usepackage{rotating}
+%\usepackage{booktabs}
+%\usepackage{threeparttable}
+%\usepackage{tabularx}
 
 %\title{How and Why to run a Hack Week}
 
@@ -28,7 +28,7 @@
 %\author{Jake VanderPlas, Karthik Ram, Daniela Huppenkothen, David W. Hogg, Ariel Rokem, Anthony Arendt \& Tal Yarkoni}
 
 
-\begin{document}
+%\begin{document}
 
 %\maketitle
 
@@ -37,6 +37,7 @@
 % \item NYU
 % \item UC Berkeley
 %\end{affiliations}
+
 
 \section{Supplementary Material}
 
@@ -50,6 +51,24 @@ A goal of most of our previous events was to study the development of a hack wee
 \subsubsection{Goal Planning}
 Unlike traditional conferences, where the programme is primarily driven by speaker selection, careful goal planning is essential for a successful hack week. The stated goals will continue to determine almost all of the remaining organizational questions, including space, participant selection and workshop evaluation. Is it aimed more at students or mature researchers, or a mix of both? Should the taught component dominate over project work or should it be only a minor programme point? Is the community to be invited more software-focused or should outcomes skew towards publishable results? Does the workshop aim to maximize its output by carrying best practices into universities and institutions that may be particularly underrepresented? These questions, among others, should have a very clear answer before any further workshop organization takes place.
 
+
+\subsection{Event Size and Duration}
+
+- add a few sentences about size and interaction with goals
+- add a few sentences about duration and interaction with goals
+- add that we're still figuring this out
+- we're experimenting with length and duration
+
+
+\subsubsection{Participant selection}
+
+Add more on participant selection, especially practical details. 
+- add problem of asking good questions: especially questions that require candidates to calibrate should be written in such a way that they allow for objective calibration (e.g. ask for specific actions people have taken, rather than "beginner", "intermediate", "expert"
+- add other approaches taken by the three different hack weeks
+
+- add different criteria for selection
+
+
 \subsubsection{Hack Week Location}
 When considering space, both the broader location (city and country) as well as the specifics (the room in which the workshop will occur) should receive equal consideration. The non-traditional nature of hack weeks means that some students report challenges in receiving their superior's approval to attend. Thus, keeping the costs of attendance low (including travel costs, room and board, and conference fees) should be the highest priority when deciding on a location. Conference centers like the Lorentz Center at the University of Leiden provide funding along with the collaborative space, but have long lead times when applying for their spaces (typically 12-18 months). The same can be true for collaborative spaces within universities and active learning environments, which tend to be popular. Therefore, the search for a location should commence no later than twelve months before the workshop, ideally much earlier.
 The space itself should be large and ideally configurable, with moveable tables and chairs, several screens or projectors, and an ample number of white-/chalkboards. A useful guiding principle is to book a space that fits a group at least 25\% larger than that envisioned for the workshop, and the less configurable the space, the larger the extra room should be.
@@ -57,7 +76,7 @@ The space itself should be large and ideally configurable, with moveable tables 
 \subsubsection{Funding}
 
 We have worked to minimize the cost of registration for our events in order to enable broad participation, especially for participants from institutions, countries and demographics that are generally underrepresented at other meetings. Locations that offer some funding or provide free space are preferable to those that do not.
-At Astro Hack Week, we have found that travel grants are of crucial importance especially to undergraduates, students from minority backgrounds and participants from underrepresented countries. During the organization of Python in Astronomy 2017, we found that minority participants disproportionally decline to attend, and often cite lack of sufficient travel funding as the primary reason. In particular if increasing diversity in the more technical aspects of a field is one of the workshop's goals, providing enough travel funding for between five to ten participants can make a significant difference in allowing minority researchers to attend.
+At Astro Hack Week, we have found that travel grants are of crucial importance especially to undergraduates, students from minority backgrounds and participants from underrepresented countries. We found that minority participants disproportionally decline to attend, and often cite lack of sufficient travel funding as the primary reason. In particular if increasing diversity in the more technical aspects of a field is one of the workshop's goals, providing enough travel funding for between five to ten participants can make a significant difference in allowing minority researchers to attend.
 
 \subsubsection{Code of Conduct}
 
@@ -111,7 +130,18 @@ For hack weeks that place less emphasis on teaching, hack sessions are at the co
 At the hack week itself, the time designated for project work will generally be prefaced by a pitch session, where participants with projects give a short description of their project to the group and request help. For junior participants and those new to the format, this can be daunting, even if (or especially when) they do not have a project themselves. In particular junior participants tend to believe that they do not yet have the skills to contribute meaningfully to any projects. Here, it can be useful to require those participants who are not pitching projects to state their expertise and affirm that every participant has expertise in something. This broad definition of hacking can help the organizers to facilitate inclusion by emphasizing the value in skills such as writing (e.g. for tutorials and documentation), testing code to be released, or other tasks. After pitching, participants self-organize into teams to work on specific projects. Here, organizers should remain aware of participants who may not have found a group, or are having trouble finding a task to work on. This remains true during the week, as some projects are abandoned and others appear. At least one member of the organizing committee should be familiar with the current roster of projects and the experience in the room to help match participants as needed. Tracking ongoing projects can be accomplished online, via real-time collaborative documents, as well as in the physical space, via a diagram of where in the space teams are located.
 Because hack weeks are generally longer than typical hackathons (often limited to just one or two days), this will lead to a variety of shorter projects completed within a day or two, and longer projects going on throughout the week. Regular check-in sessions are helpful for pitching new projects, requesting help on projects stuck at a certain point, and re-matching participants after hacks have been completed or abandoned. These sessions can also be used for completed hacks to be showcased, or intermediate achievements to be presented. At the end of the week we provide ample time for participants to present their projects to the community. We endeavor to design these presentations in a way that builds confidence, especially for junior researchers, and that welcomes all projects regardless of their level of sophistication. The open-ended format of a hack week encourages experimental approaches and new directions, which necessarily will not all be successful. Too often, showcases focus on the most successful and impressive projects, which distorts reality and produces both an unreasonable expectation of what the result of a hack week ought to be as well as a pressure to be successful that can in practice inhibit participants. Therefore, it should be encouraged that participants show failed ideas, not least because the knowledge of why a project failed can be a valuable learning experience beyond the team working on that particular project.
 
-\subsection{Impostor Syndrome}
+
+\subsection{Ensuring Participation}
+to add here:
+- things about inclusion and how to make people participate
+- add sentence about that to main paper
+- ANthony needs to add stuff here
+- add e.g. that we planted designated question askers
+- have organizers as dedicated facilitators
+
+- want to have some good 
+
+\subsubsection{Impostor Syndrome}
 
 The \textit{impostor phenomenon}, or \textit{impostor syndrome} (IS) is a dissonant feeling experienced by certain high-achieving individuals, that despite objective evidence to the contrary, they are in fact not as intelligent or capable as they appear.
 Individuals with IS thus experience a fear of being ''found out``, shamed and expelled from their environment \cite{Clance1978-ef}.
@@ -210,4 +240,4 @@ On a larger scale, it might be useful to track measures of success more long-ter
 %\end{tabular}
 %\end{table}
 
-\end{document}
+%\end{document}
