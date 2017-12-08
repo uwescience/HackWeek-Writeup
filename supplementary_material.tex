@@ -1,42 +1,3 @@
-%% Template for a preprint Letter or Article for submission
-%% to the journal Nature.
-%% Written by Peter Czoschke, 26 February 2004
-%%
-
-\documentclass{nature}
-
-%% make sure you have the nature.cls and naturemag.bst files where
-%% LaTeX can find them
-\usepackage{graphicx}	% Including figure files
-\usepackage{amsmath}	% Advanced maths commands
-\usepackage{amssymb}	% Extra maths symbols
-\usepackage{natbib}
-
-\usepackage{hyperref}
-\usepackage{url}
-\usepackage{microtype}
-\usepackage{rotating}
-\usepackage{booktabs}
-\usepackage{threeparttable}
-\usepackage{tabularx}
-
-%\title{How and Why to run a Hack Week}
-
-%% Notice placement of commas and superscripts and use of &
-%% in the author list
-
-%\author{Jake VanderPlas, Karthik Ram, Daniela Huppenkothen, David W. Hogg, Ariel Rokem, Anthony Arendt \& Tal Yarkoni}
-
-
-\begin{document}
-
-%\maketitle
-
-%\begin{affiliations}
-% \item UW Seattle
-% \item NYU
-% \item UC Berkeley
-%\end{affiliations}
 
 \section{Supplementary Material}
 
@@ -48,16 +9,37 @@ While the main text of this paper remains fairly theoretical, we aim to lay out 
 A goal of most of our previous events was to study the development of a hack week, to observe participant behavior, and quantify the achievement of learning outcomes. To this end, we invited social scientists, interested in mechanisms of scientific collaboration and educational design process, to observe our activities. These scientists then reviewed their observations and and gave valuable feedback about the hack week outcomes. In order to be able to track and study participants, approval from Internal Review Boards is required for workshops organized in the United States. This should be done as early as possible, and having assistance from researchers in the social sciences is invaluable, in particular for hack weeks in fields that generally don't involve human subject research. Ideally, participants should consent to be contacted at the application stage, which opens up the potential of tracking both participants and non-participants and allows for evaluation of the hack week.
 
 \subsubsection{Goal Planning}
+
 Unlike traditional conferences, where the programme is primarily driven by speaker selection, careful goal planning is essential for a successful hack week. The stated goals will continue to determine almost all of the remaining organizational questions, including space, participant selection and workshop evaluation. Is it aimed more at students or mature researchers, or a mix of both? Should the taught component dominate over project work or should it be only a minor programme point? Is the community to be invited more software-focused or should outcomes skew towards publishable results? Does the workshop aim to maximize its output by carrying best practices into universities and institutions that may be particularly underrepresented? These questions, among others, should have a very clear answer before any further workshop organization takes place.
 
 \subsubsection{Hack Week Location}
 When considering space, both the broader location (city and country) as well as the specifics (the room in which the workshop will occur) should receive equal consideration. The non-traditional nature of hack weeks means that some students report challenges in receiving their superior's approval to attend. Thus, keeping the costs of attendance low (including travel costs, room and board, and conference fees) should be the highest priority when deciding on a location. Conference centers like the Lorentz Center at the University of Leiden provide funding along with the collaborative space, but have long lead times when applying for their spaces (typically 12-18 months). The same can be true for collaborative spaces within universities and active learning environments, which tend to be popular. Therefore, the search for a location should commence no later than twelve months before the workshop, ideally much earlier.
 The space itself should be large and ideally configurable, with moveable tables and chairs, several screens or projectors, and an ample number of white-/chalkboards. A useful guiding principle is to book a space that fits a group at least 25\% larger than that envisioned for the workshop, and the less configurable the space, the larger the extra room should be.
 
+\subsection{Event Size and Duration}
+
+Event size (i.e. the number of attendees) and event durations are important to consider during the design and planning phase of a hack week. All hack weeks held so far have been five days, with group sizes between 40-60 participants. The number of attendees resulted from a number of different design considerations. One practical consideration was the size of the available location: especially the project-focused parts of a hack week generally require a reconfigurable space with more seats than attendees, such that spontaneous organization in sub-groups is easy. However, group size is also important in the context of community building, group dynamics and programme decisions. We limited group size to a maximum of 70 participants, because previous anecdotal evidence has shown us that this is about the maximum group size where interactions between all participants is still possible. We wanted to ensure that all participants had at least met all other participants in order to facilitate community building and keep the group from fracturing into cliques. Another important consideration is representation along the many axes of diversity we considered. For example, a single undergraduate participant might feel like an outsider; admitting three or four can mitigate alienation effects. Similarly, in order to foster active collaboration among many different subfields, we ensured admitting participants with many different types of expertise, some of which overlapped. Having a set of participants that is too small would interfere both with these goals of representation and of fostering interdisciplinary collaborations and networking, thus we would advise admitting at least $\sim$30 or so participants if these objectives are an important part of the hack week. 
+
+All hack weeks organized up to now have been five days. This duration was chosen with several different design objectives in mind. In particular, it was chosen to allow both learning and project work at the same time. Participants often come with ambitious project ideas, or with the goal of taking newly learned methods and applying them to their data sets right away. Thus many projects tended to extend over multiple days. Attendees who participated in multiple projects often used the hack week to try out several different ideas. A five-day hack week allows for ample time for these ambitious projects or experimentation, where a shorter hack week would necessarily have to be more constrained and focused. At the same time, hack weeks tend to be exhausting. Project work often extends into the evenings, and requires prolonged phases of high concentration of participants, thus we limited our hack weeks to five days in order to avoid excessive fatigue among our attendees.
+
+It is worth noting, however, that these guidelines were developed out of design considerations rather than experimentation and testing. In the future, we plan to experiment with the format, duration and size of these events and continue to evaluate their interplay with our objectives.
+
+\subsubsection{Participant selection}
+
+As we lay out in the main text, participant selection is one of the most important design decisions as part of a hack week. Conversations about participant selection, and planning of selection strategies should commence early, ideally at the start of the organizing process. 
+Because selection procedures are subject to a whole range of human biases, it is worth thinking critically about established procedures and how to improve them. At the same time, hack weeks are comparatively lower-stakes events than other situations where cohort selection is relevant, like e.g.\ graduate school admissions, thus hack weeks may also serve as test beds for experimentation and improvements that can inform selection in other contexts. 
+
+The hack weeks presented here used different approaches, that nevertheless several common themes and ideas. In particular, they focus on making the selection procedure as quantitative as possible and use the data collected during each stage of the process to critically evaluate the efficacy of the process and its subject to human bias. 
+Secondly, much energy is expended early on in the design of the application form, which often use a combination of open-answer and multiple-choice questions to assess candidates' suitability, skill levels and backgrounds. Care must be taken when designing questions assessing skill levels, because options such as ``beginner'' or ``expert'' are have no absolute scaling and may have different meanings to different applicants. They may also be subject to intrinsic biases, if candidates of certain backgrounds systematically underestimate or overestimate their skill levels compared to other candidates. It is thus advisable to calibrate skill levels on concrete milestones. For example, instead of asking participants whether they are ``beginners'' or ``experts'' at machine learning, we instead asked them whether they had done machine learning for class work, had used techniques from machine learning in their own research, or had developed and implemented their own methods. Responding to questions about demographic characteristics should generally be optional, and organizers should consider how these questions might interact adversely with workshop goals, e.g.\ via stereotype threat. For example, Astro Hack Week only asked whether an applicant considered themselves a minority with respect to gender identity within astronomy, rather than asking them to explicitly self-identify within a specific category.
+
+The overall selection procedure for Astro Hack Week comprised a two-step process. In the initial step, we performed a blind assessment for suitability using open-ended questions querying candidates' motivations for attending the workshop, and their goals for attending. We only excluded a small fraction ($<10\%$) of applicants at this step, because our goals aligned with admitting a wide range of different skill levels and backgrounds. Applicants were generally either excluded for being an obvious mismatch with the workshop goals (as in the case of an Android developer applying to work on an unrelated game) or for being duplicate entries. We subsequently used a range of categories queried with multiple-choice questions  on the application to maximize diversity across these categories, which included career stage, gender identity, racial/ethnic identity, geographic origin, programming background, machine learning skills, statistics knowledge, and previous attendance at Astro Hack Week. Targets within each categories were set according to the different workshop goals. For example, we set ambitious goals of admitting 50\% attendees from underrepresented minorities with respect to gender, race and ethnicity with the goal of increasing representation of these groups with astronomy and data science. Similarly, we set targets for other categories (e.g. skill levels) in order to maximize goals around collaboration, networking and fostering interdisciplinary exchange of knowledge. Subsequently, we used a greedy optimization algorithm to jointly optimize over all categories simultaneously. We evaluated our results by directly comparing the characteristics of the selected set of participants with both our targets and the distribution of the set of all candidates. For demographic characteristics specifically, 42\% of participants in both 2016 and 2017 considered themselves a minority with respect to gender identity in astronomy, and 32\% of participants in 2016 (2017: 33\%) considered themselves a minority with respect to racial or ethnic identity. About half of the attendees were students ($\sim$40\% graduate students, $\sim$10\% undergraduate students), another $25\5$ postdoctoral fellow, and the remainder about equally split between research staff, tenured and tenure-track faculty, and participants in non-academic careers. 
+
+
 \subsubsection{Funding}
 
 We have worked to minimize the cost of registration for our events in order to enable broad participation, especially for participants from institutions, countries and demographics that are generally underrepresented at other meetings. Locations that offer some funding or provide free space are preferable to those that do not.
-At Astro Hack Week, we have found that travel grants are of crucial importance especially to undergraduates, students from minority backgrounds and participants from underrepresented countries. During the organization of Python in Astronomy 2017, we found that minority participants disproportionally decline to attend, and often cite lack of sufficient travel funding as the primary reason. In particular if increasing diversity in the more technical aspects of a field is one of the workshop's goals, providing enough travel funding for between five to ten participants can make a significant difference in allowing minority researchers to attend.
+At Astro Hack Week, we have found that travel grants are of crucial importance especially to undergraduates, students from minority backgrounds and participants from underrepresented countries. We found that minority participants disproportionally decline to attend, and often cite lack of sufficient travel funding as the primary reason. In particular if increasing diversity in the more technical aspects of a field is one of the workshop's goals, providing enough travel funding for between five to ten participants can make a significant difference in allowing minority researchers to attend.
+
 
 \subsubsection{Code of Conduct}
 
@@ -67,7 +49,9 @@ Aside from important provisions banning discrimination on the basis of demograph
 
 \subsubsection{Communicating with the Outside World}
 
-Because hack weeks have enjoyed considerable popularity, they have often been oversubscribed. This leaves organizers with an important decision: given the necessity of turning a large fraction of applicants away, what methods does the group wish to employ in order to communicate during the hack week with the wider community not in attendance? Tutorials may be live-streamed via popular services such as youtube, but aside from the technical complexity of setting up a reliable live stream, their interactive format may not easily lend themselves to the one-directional communication of a video feed. Even so, live streams have proven to be both useful and popular in the past, but require considerable effort to set up. At the very least, there should be some method of real-time communication with the in-group. Twitter has proven itself to be an effective medium of general communication with the wider community, including hack pitches, questions during tutorials and collaboration with researchers outside of Astro Hack Week. However, the closed nature of Twitter to those with an account may not make it the ideal platform for participation. Other open-source formats that do not require sign-up, such as Matrix, may be more compatible with the hack week format\footnote{\url{https://dave.cheney.net/2017/04/11/why-slack-is-inappropriate-for-open-source-communications}}. Important documents such as programme (and especially programme changes) as well as hack descriptions should be open to the public and communicated clearly to facilitate collaborations with outside researchers.
+Because hack weeks have enjoyed considerable popularity, they have often been oversubscribed. This leaves organizers with an important decision: given the necessity of turning a large fraction of applicants away, what methods does the group wish to employ in order to communicate during the hack week with the wider community not in attendance? Tutorials may be live-streamed via popular services such as youtube, but aside from the technical complexity of setting up a reliable live stream, their interactive format may not easily lend themselves to the one-directional communication of a video feed. Even so, live streams have proven to be both useful and popular in the past, but require considerable effort to set up. At the very least, there should be some method of real-time communication with the in-group. Twitter has proven itself to be an effective medium of general communication with the wider community, including hack pitches, questions during tutorials and collaboration with researchers outside of Astro Hack Week. However, the closed nature of Twitter to those with an account may not make it the ideal platform for participation. Other open-source formats that do not require sign-up, such as Matrix, may be more compatible with the hack week format\footnote{\url{https://dave.cheney.net/2017/04/11/why-slack-is-inappropriate-for-open-source-communications}}. Important documents such as programme (and especially programme changes) as well as hack descriptions should be open to the public and communicated clearly to facilitate collaborations with outside researchers. 
+
+It is, in principle, possible to organize an entire hack week virtually. However, the format rests firmly on a fundament of community building and creating opportunities for participants to exchange ideas and knowledge. While not impossible to achieve in a virtual setting, both would be significantly harder than in a single physical location, to a point where the lack of immediate exchange may severely limit to generate successful new collaborations and ideas. We thus recommend against running a purely virtual hack week.
 
 \subsection{During a Hack Week}
 
@@ -82,7 +66,7 @@ Some of our hack week tutorials follow the structure of the Software Carpentry m
 
 While the short duration of the tutorial format helps us minimize the problem of information overload, it can be challenging to decide on the scope and breadth of material to be covered. In-depth collaboration among instructors in advance of the event is particularly valuable in this regard, to assess which methods or subjects will be most useful for the specific audience. We suggest that the primary goals of the tutorials should be to provide an entry point into an exploration of participants' datasets, opening the door to more thorough study outside of the hack week. Given the broad span of available tools and topics, the organizing committee should seek to teach content that represents the state-of-the-art and is deemed to be of greatest use to the broadest span of participants. A common theme across all of our hack weeks is to teach initial tutorials in version control, command line interfaces, data science platforms and practices of reproducible research. These tutorials endeavor to provide a common baseline of techniques that participants can build on in other tutorials and project work. Subsequent tutorials are then delivered in more domain-specific fields, but can be arranged in a way that builds knowledge constructively through the week. In some cases, it may be advisable to recommend some theoretical texts as reading before attending the hack week, though it is likely that speakers should not count on every participant arriving with the same knowledge baseline. Because of their practical nature, however, software requirements should be announced as early and clearly as possible, with the expectation that participants will have installed necessary software in advance. It may be helpful to designate some time early on in the meeting to trouble-shoot installations before tutorials begin in order to avoid loosing significant time during the actual tutorials.
 
-It is noteworthy that in practice, the mixed audience and interactive setting can often lead to impostor syndrome among the speakers, who lose their explicit status as expert among the participants. It is therefore imperative that speakers are made aware very early about the audience so that they can plan their tutorial accordingly. It also helps to make them aware that participants may be taking the role of teaching assistants during exercises and include them in the teaching, rather than see them as adversaries who may seek to correct them. Conversely, experts may be used to ask pointed questions about fundamental, important concepts, both in order to help the audience gain a deeper understanding and encourage questions especially from junior participants, who may be hesitant to ask questions due to their own impostor syndrome. At Astro Hack Week, we encourage the organizing committee and experienced participants to ask questions, particularly when they know the answer but think the concept may not yet be clear to parts of the audience. This has in the past led to exchanges between experts that have greatly contributed to the tutorials in ways that were both unplanned and unexpected for all involved, beginners and experts alike. Including experts in the teaching also takes pressure off teachers during exercises, when demands on the speaker are generally high.
+It is noteworthy that in practice, the mixed audience and interactive setting can often lead to impostor syndrome (see below) among the speakers, who lose their explicit status as expert among the participants. It is therefore imperative that speakers are made aware very early about the audience so that they can plan their tutorial accordingly. It also helps to make them aware that participants may be taking the role of teaching assistants during exercises and include them in the teaching, rather than see them as adversaries who may seek to correct them. Conversely, experts may be used to ask pointed questions about fundamental, important concepts, both in order to help the audience gain a deeper understanding and encourage questions especially from junior participants, who may be hesitant to ask questions due to their own impostor syndrome. At Astro Hack Week, we encourage the organizing committee and experienced participants to ask questions, particularly when they know the answer but think the concept may not yet be clear to parts of the audience. This has in the past led to exchanges between experts that have greatly contributed to the tutorials in ways that were both unplanned and unexpected for all involved, beginners and experts alike. Including experts in the teaching also takes pressure off teachers during exercises, when demands on the speaker are generally high.
 
 To summarize, a good tutorial will:
 \begin{itemize}
@@ -111,7 +95,15 @@ For hack weeks that place less emphasis on teaching, hack sessions are at the co
 At the hack week itself, the time designated for project work will generally be prefaced by a pitch session, where participants with projects give a short description of their project to the group and request help. For junior participants and those new to the format, this can be daunting, even if (or especially when) they do not have a project themselves. In particular junior participants tend to believe that they do not yet have the skills to contribute meaningfully to any projects. Here, it can be useful to require those participants who are not pitching projects to state their expertise and affirm that every participant has expertise in something. This broad definition of hacking can help the organizers to facilitate inclusion by emphasizing the value in skills such as writing (e.g. for tutorials and documentation), testing code to be released, or other tasks. After pitching, participants self-organize into teams to work on specific projects. Here, organizers should remain aware of participants who may not have found a group, or are having trouble finding a task to work on. This remains true during the week, as some projects are abandoned and others appear. At least one member of the organizing committee should be familiar with the current roster of projects and the experience in the room to help match participants as needed. Tracking ongoing projects can be accomplished online, via real-time collaborative documents, as well as in the physical space, via a diagram of where in the space teams are located.
 Because hack weeks are generally longer than typical hackathons (often limited to just one or two days), this will lead to a variety of shorter projects completed within a day or two, and longer projects going on throughout the week. Regular check-in sessions are helpful for pitching new projects, requesting help on projects stuck at a certain point, and re-matching participants after hacks have been completed or abandoned. These sessions can also be used for completed hacks to be showcased, or intermediate achievements to be presented. At the end of the week we provide ample time for participants to present their projects to the community. We endeavor to design these presentations in a way that builds confidence, especially for junior researchers, and that welcomes all projects regardless of their level of sophistication. The open-ended format of a hack week encourages experimental approaches and new directions, which necessarily will not all be successful. Too often, showcases focus on the most successful and impressive projects, which distorts reality and produces both an unreasonable expectation of what the result of a hack week ought to be as well as a pressure to be successful that can in practice inhibit participants. Therefore, it should be encouraged that participants show failed ideas, not least because the knowledge of why a project failed can be a valuable learning experience beyond the team working on that particular project.
 
-\subsection{Impostor Syndrome}
+
+\subsection{Facilitating Participation}
+
+Admitting a diverse group of participants is only the first step in encouraging collaboration and knowledge exchange. Community building and careful facilitation of both tutorials and project works are arguably the cornerstones of a successful hack week. This is especially important because the group will inevitably include a wide range of personalities, some of which may find it easier to form new bonds and interact with the group than others. At all hack weeks, we have taken concrete steps to address potential issues and foster a welcoming, inclusive atmosphere. Clearly communicating values and expectations at the beginning for the week can help setting the stage for an environment that a large range of different personalities can thrive in. This includes both communication of the code of conduct, putting an emphasis on collaborative rather than competitive behaviour, as well as a discussion of potential issues participants might experience, such as impostor syndrome (see also section below). 
+
+At Astro Hack Week, we aim to influence group dynamics in specific ways to allow timid participants to speak up. As mentioned above, we ask a few participants known to us to occasionally ask questions during tutorials, in order to encourage other participants to do the same. We also designate at least two members of the organizing committee whose role it is to facilitate both tutorials and hack sessions. It is their task to for example manage dominant personalities, which can be both a boon and a hindrance to the success of a hack week. Often, these attendees can be effective at generating excitement and engagement, but can also intimidate and dominate discussions. It is up to the organizers to balance the participation of these attendees with the needs of the rest of the group. Similarly, facilitators at Astro Hack Week spend the majority of hacking time circulating the room, connecting participants without a group to a project, help connect groups who run into a problem with experts who can help out, and make sure group work proceeds in such a way that all members feel valued.  
+
+
+\subsubsection{Impostor Syndrome}
 
 The \textit{impostor phenomenon}, or \textit{impostor syndrome} (IS) is a dissonant feeling experienced by certain high-achieving individuals, that despite objective evidence to the contrary, they are in fact not as intelligent or capable as they appear.
 Individuals with IS thus experience a fear of being ''found out``, shamed and expelled from their environment \cite{Clance1978-ef}.
@@ -138,76 +130,3 @@ On a larger scale, it might be useful to track measures of success more long-ter
 
 
 
-
-%Spelling must be British English (Oxford English Dictionary)
-
-%In addition, a cover letter needs to be written with the
-%following:
-%\begin{enumerate}
-% \item A 100 word or less summary indicating on scientific grounds
-%why the paper should be considered for a wide-ranging journal like
-%\textsl{Nature} instead of a more narrowly focussed journal.
-% \item A 100 word or less summary aimed at a non-scientific audience,
-%written at the level of a national newspaper.  It may be used for
-%\textsl{Nature}'s press release or other general publicity.
-% \item The cover letter should state clearly what is included as the
-%submission, including number of figures, supporting manuscripts
-%and any Supplementary Information (specifying number of items and
-%format).
-% \item The cover letter should also state the number of
-%words of text in the paper; the number of figures and parts of
-%figures (for example, 4 figures, comprising 16 separate panels in
-%total); a rough estimate of the desired final size of figures in
-%terms of number of pages; and a full current postal address,
-%telephone and fax numbers, and current e-mail address.
-%\end{enumerate}
-
-%See \textsl{Nature}'s website
-%(\texttt{http://www.nature.com/nature/submit/gta/index.html}) for
-%complete submission guidelines.
-
-%\begin{methods}
-%Put methods in here.  If you are going to subsection it, use
-%\verb|\subsection| commands.  Methods section should be less than
-%800 words and if it is less than 200 words, it can be incorporated
-%into the main text.
-
-
-%\end{methods}
-
-%% Put the bibliography here, most people will use BiBTeX in
-%% which case the environment below should be replaced with
-%% the \bibliography{} command.
-
-% \begin{thebibliography}{1}
-% \bibitem{dummy} Articles are restricted to 50 references, Letters
-% to 30.
-% \bibitem{dummyb} No compound references -- only one source per
-% reference.
-% \end{thebibliography}
-
-
-%%
-%% TABLES
-%%
-%% If there are any tables, put them here.
-%%
-
-%\begin{table}
-%\centering
-%\caption{This is a table with scientific results.}
-%\medskip
-%\begin{tabular}{ccccc}
-%\hline
-%1 & 2 & 3 & 4 & 5\\
-%\hline
-%aaa & bbb & ccc & ddd & eee\\
-%aaaa & bbbb & cccc & dddd & eeee\\
-%aaaaa & bbbbb & ccccc & ddddd & eeeee\\
-%aaaaaa & bbbbbb & cccccc & dddddd & eeeeee\\
-%1.000 & 2.000 & 3.000 & 4.000 & 5.000\\
-%\hline
-%\end{tabular}
-%\end{table}
-
-\end{document}
