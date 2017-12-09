@@ -1,25 +1,70 @@
+%% Template for a preprint Letter or Article for submission
+%% to the journal Nature.
+%% Written by Peter Czoschke, 26 February 2004
+%%
 
-\section{Supplementary Material}
+\documentclass{nature}
 
-While the main text of this paper remains fairly theoretical, we aim to lay out more practical advice regarding the organization of a hack week in the appendix of this document.
+%% make sure you have the nature.cls and naturemag.bst files where
+%% LaTeX can find them
+\usepackage{graphicx}	% Including figure files
+\usepackage{amsmath}	% Advanced maths commands
+\usepackage{amssymb}	% Extra maths symbols
+%\usepackage{natbib}
 
-\subsection{What to do before}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{microtype}
+\usepackage{rotating}
+\usepackage{booktabs}
+\usepackage{threeparttable}
+\usepackage{tabularx}
+\linespread{1.2}
 
-\subsubsection{Obtaining permission for tracking and studying participants}
+
+\title{Supplementary material for "Hack Weeks as a model for Data Science Education and Collaboration"}
+
+%% Notice placement of commas and superscripts and use of &
+%% in the author list
+
+\author{Daniela Huppenkothen$^1$, Anthony Arendt$^2$, David W. Hogg$^1$, Karthik Ram$^3$, Jake VanderPlas$^2$, and Ariel Rokem$^2$}
+
+
+\makeatletter
+\let\saved@includegraphics\includegraphics
+\AtBeginDocument{\let\includegraphics\saved@includegraphics}
+\renewenvironment*{figure}{\@float{figure}}{\end@float}
+\makeatother
+
+\begin{document}
+
+\maketitle
+
+\begin{affiliations}
+ \item Center for Data Science, New York University
+ \item The University of Washington eScience Institute
+ \item The Berkeley Institute for Data Science, UC Berkeley
+\end{affiliations}
+
+\noindent While the main text of this paper remains fairly theoretical, we aim to lay out more practical advice regarding the organization of a hack week in this supplement.
+
+\section{What to do before}
+
+\subsection{Obtaining permission for tracking and studying participants}
 A secondary goal of most of our previous events was to study the development of a hack week, to observe participant behavior, and quantify the achievement of learning outcomes. To this end, we invited social scientists, interested in mechanisms of scientific collaboration and educational design process, to observe our activities. These scientists then reviewed their observations and and gave valuable feedback about the hack week outcomes. In order to be able to track and study participants, approval from an Internal Review Board is required. This should be done as early as possible, and having assistance from researchers in the social sciences is invaluable, in particular for hack weeks in fields that generally don't involve human subject research. Ideally, participants should consent to be contacted at the application stage, which opens up the potential of tracking both participants and non-participants and allows for evaluation of the hack week.
 
-\subsubsection{Goal Planning}
+\subsection{Goal Planning}
 
 Unlike traditional conferences, where the programme is primarily driven by speaker selection, careful goal planning is essential for a successful hack week. The stated goals will continue to determine almost all of the remaining organizational questions, including space, participant selection and workshop evaluation. Is the target audience primarily students, or mature researchers, or a mix of both? Should the taught component dominate over project work or should it be only a minor programme point? Is the community to be invited more software-focused or should outcomes skew towards publishable results? Does the workshop aim to maximize its output by carrying best practices into universities and institutions that may be particularly underrepresented? These questions, among others, should have a very clear answer before any further workshop organization takes place.
 
-\subsubsection{Hack Week Location}
+\subsection{Hack Week Location}
 When considering space, both the broader location (city and country) as well as the specifics (the room in which the workshop will occur) should receive equal consideration. The non-traditional nature of hack weeks means that some students report challenges in receiving support from their supervisor or department to attend. Thus, keeping the costs of attendance low (including travel costs, room and board, and conference fees) should be a high priority when deciding on a location. Conference centers like the Lorentz Center at the University of Leiden provide funding along with the collaborative space, but have long lead times when applying for their spaces (typically 12-18 months). The same can be true for collaborative spaces within universities and active learning environments, which tend to be popular. Therefore, the search for a location should commence no later than twelve months before the workshop, ideally much earlier.
 The space itself should be large and ideally configurable, with moveable tables and chairs, several screens or projectors, and an ample number of white-/chalkboards. A useful guiding principle is to book a space that fits a group at least 25\% larger than that envisioned for the workshop, and the less configurable the space, the larger the extra room should be.
 There should be plenty of power outlets for participants to plug in their computers.
 The space should have ready access to wifi, for activities that require an internet connection (e.g., collaborative software development), and organizers should arrange in advance to provide access to visitors from other institutions.
 Accessibility should be taken into consideration: is the space accessible for participants who use wheel-chairs? Are accessible restrooms available.
 
-\subsection{Event Size and Duration}
+\section{Event Size and Duration}
 
 Event size (i.e. the number of attendees) and event durations are important to consider during the design and planning phase of a hack week. All hack weeks held so far have been five days, with group sizes between 40-60 participants. The number of attendees resulted from a number of different design considerations. One practical consideration was the size of the available location: especially the project-focused parts of a hack week generally require a reconfigurable space with more seats than attendees, such that spontaneous organization in sub-groups is easy. However, group size is also important in the context of community building, group dynamics and programme decisions. We limited group size to a maximum of 70 participants, because previous anecdotal evidence has shown us that this is about the maximum group size where interactions between all participants is still possible. We wanted to ensure that all participants had an opportunity to at least meet all other participants, in order to facilitate community building and keep the group from fracturing into cliques. Another important consideration is representation along the many axes of diversity we considered. For example, a single undergraduate participant might feel like an outsider; admitting three or four can mitigate alienation effects. Similarly, in order to foster active collaboration among many different subfields, we ensured admitting participants with many different types of expertise, some of which overlapped. Having a set of participants that is too small would interfere both with these goals of representation and of fostering interdisciplinary collaborations and networking, thus we would advise admitting at least $\sim$30 or so participants if these objectives are an important part of the hack week.
 
@@ -27,7 +72,7 @@ All hack weeks organized up to now have been five days. This duration was chosen
 
 It is worth noting, however, that these guidelines were developed out of design considerations rather than experimentation and testing. In the future, we plan to experiment with the format, duration and size of these events and continue to evaluate their interplay with our objectives.
 
-\subsubsection{Participant selection}
+\subsection{Participant selection}
 
 As we lay out in the main text, participant selection is one of the most important design decisions as part of a hack week. Conversations about participant selection, and planning of selection strategies should commence early, ideally at the start of the organizing process.
 Because selection procedures are subject to a whole range of human biases, it is worth thinking critically about established procedures and how to improve them. At the same time, hack weeks are comparatively lower-stakes events than other situations where cohort selection is relevant, like e.g.\ graduate school admissions, thus hack weeks may also serve as test beds for experimentation and improvements that can inform selection in other contexts.
@@ -39,7 +84,7 @@ The overall selection procedure for Astro Hack Week comprised a two-step process
 
 Neuro hack week took a different approach: participants provided CV as part of their application, in addition to answering questions about their technical and research background, and writing a short statement of the purpose of their participation. Each application was reviewed by several instructors using 1-10 scales on several criteria: technical and computing experience, research experience, the quality of the statement, an assessment of the contribution of participation to the applicant's career, and an assessment of the degree to which participation would increase the representation of groups that are usually under-represented in neuroscience and computing. The scores were combined, applicants were ranked according to the combined score, and the 40 highest-scoring applicants were then selected to participate. As an example,  this procedure resulted in gender parity in 2016 and near-parity (17 women and 23 men) in 2017. In neuro hack week as well about half of the participants were students (though no undergraduate students participated), about $25\%$ were post-docs, with the remainder including research staff and faculty members.
 
-\subsubsection{Funding}
+\subsection{Funding}
 
 We have worked to minimize the cost of registration for our events in order to enable broad participation, especially for participants from institutions, countries and demographics that are generally underrepresented at other meetings. Locations that offer some funding or provide free space are preferable to those that do not.
 We have found that travel grants are of crucial importance especially to undergraduates, students from minority backgrounds and participants from underrepresented countries. We found that minority participants disproportionally decline to attend, and often cite lack of sufficient travel funding as the primary reason. In particular if increasing diversity in the more technical aspects of a field is one of the workshop's goals, providing enough travel funding for between five to ten participants can make a significant difference in allowing minority researchers to attend.
@@ -48,23 +93,23 @@ For example, cloud computing providers have educational programs that provide cl
 Other corporate sponsorships of certain activities or of the event as a whole can be used to lower participation costs, and make participation more feasible for many participants.
 Federal funding agencies are also sometimes able to fund hack weeks and similar activities under traditional funding mechanisms that support training. For example, Neuro hack week 2017 was supported through a grant from the National Institute of Mental Health through their standard R25 training grant mechanism, and this grant continues to support it in extended format in coming years.
 
-\subsubsection{Code of Conduct}
+\subsection{Code of Conduct}
 
 A hack week should have a code of conduct. Organizers should be aware that disparities in backgrounds, knowledge and experience, together with the close collaboration much of the hacking requires, creates the potential for conduct that others might find offensive, especially when it comes to language. The goal of every hack week should be to provide a comfortable, inclusive environment for participants to learn and work. It is the responsibility of the organizing committee to discuss what belongs in the code of conduct, how it should be enforced, and prepare for different scenarios and their possible resolution in advance.
 A part of this could and should be the recognition that participants (and, indeed, members of the organizing committee) may occasionally violate the code of conduct in minor ways, and allow for tools and mechanisms to resolve these infractions. Major infractions, conversely, should be taken seriously and in severe cases lead to exclusion of participants.
 Aside from important provisions banning discrimination on the basis of demographic characteristics, there may be domain- or workshop-specific clauses that may require recognition. For example, as communities move between programming languages or techniques, shaming participants for their choice of method or language should be strongly discouraged, since it will make participants feel unwelcome, defensive and inhibit learning on a larger scale.
 
-\subsubsection{Communicating with the Outside World}
+\subsection{Communicating with the Outside World}
 
 Because hack weeks have enjoyed considerable popularity, they have often been oversubscribed. This leaves organizers with an important decision: given the necessity of turning a large fraction of applicants away, what methods does the group wish to employ in order to communicate during the hack week with the wider community not in attendance? Tutorials may be live-streamed via popular services such as youtube, but aside from the technical complexity of setting up a reliable live stream, their interactive format may not easily lend themselves to the one-directional communication of a video feed. Even so, live streams have proven to be both useful and popular in the past, but require considerable effort to set up. At the very least, there should be some method of real-time communication with the in-group. Twitter has proven itself to be an effective medium of general communication with the wider community, including hack pitches, questions during tutorials and collaboration with researchers outside of Astro Hack Week. However, the closed nature of Twitter to those with an account may not make it the ideal platform for participation. Other open-source formats that do not require sign-up, such as Matrix, may be more compatible with the hack week format\footnote{\url{https://dave.cheney.net/2017/04/11/why-slack-is-inappropriate-for-open-source-communications}}. Important documents such as programme (and especially programme changes) as well as hack descriptions should be open to the public and communicated clearly to facilitate collaborations with outside researchers.
 
 It is, in principle, possible to organize an entire hack week virtually. However, the format rests firmly on a fundament of community building and creating opportunities for participants to exchange ideas and knowledge. While not impossible to achieve in a virtual setting, both would be significantly harder than in a single physical location, to a point where the lack of immediate exchange may severely limit to generate successful new collaborations and ideas. We thus recommend against running a purely virtual hack week.
 
-\subsection{During a Hack Week}
+\section{During a Hack Week}
 
 Unlike traditional conference, where the programme is generally set by pre-selected talks, hack weeks require additional involvement from the organization committee during the hack week itself.
 
-\subsubsection{Tutorials}
+\subsection{Tutorials}
 Tutorials provide a mechanism for rapid knowledge sharing and are often one of the most useful components of a hack week. Unlike traditional lectures, in which more time is available to explore numerous topics in depth, tutorials aim to deliver only the most essential information while ensuring students remain engaged and interactive. Moreover, the need for an instructor to balance prepared material with spontaneous, interactive learning, while attending to community building and inclusive practices, can be difficult for even the most seasoned educator. Therefore careful planning and preparation is necessary for effective delivery of a hack week tutorial.
 
 We have experimented with numerous designs in delivering our hack week tutorials in a way that is student-centered and focused on meeting each student at their particular skill level. We have observed that, especially during long tutorials and with a particularly diverse group of students, there is a natural separation between participants who are focused on gaining new knowledge as it is being presented, versus those who already possess this knowledge and hence turn their attention to other subjects as the tutorial is ongoing. In practice, this concern can be mitigated by explicitly involving experienced participants in the tutorials. We encourage instructors to call upon experts in the audience to identify themselves and effectively act as teaching assistants. Expert participants often find this gratifying because it allows them to test their own understand and improve their skills by learning through teaching. At the same time, beginners benefit by having increased interactions with other hack week participants, thereby increasing team cohesion and building community. Another technique to engage expert participants during the tutorial is to invite them to work through more challenging content located in the online lesson, which will not be covered in the session, but for which they can obtain help during the tutorial.
@@ -83,7 +128,7 @@ To summarize, a good tutorial will:
 \item communicate technical requirements at least a week before the hack week
 \end{itemize}
 
-\subsubsection{Break-Out Sessions}
+\subsection{Break-Out Sessions}
 
 Because instructors and organizing committees are unlikely to know in advance what projects and data sets participants will bring, often there will be topics and methods not covered in the pre-planned tutorials that are are of interest to the audience. Here, break-out sessions offer an alternative: short (30-45 minute) tutorials that are fairly spontaneously organized (with as little a lead time of a few hours) and often taught by expert participants in the audience. These tutorials can be a more in-depth treatment of one specific method of interest (e.g. Gaussian Processes, K-Means Clustering, Deep Learning), or cover a practical skill that may be useful to the audience, but is not formally part of the hack week (this is especially the case for skills related to software-development, such as code testing, documentation, and profiling). They are generally more informal than tutorials and can be taught to a subset of the group rather than requiring all participants to attend.
 Break-out sessions should be limited to one or two a day, in order to allow participants to attend break-out sessions without having to sacrifice a significant fraction of their time reserved for project work. It is also possible to intentionally leave a tutorial slot free, to be filled with one or two self-organized break-out sessions instead of a pre-planned tutorial. In practical terms, it is advisable to keep a physical board with requests and potential teachers in a prominent location during the week. Decisions on which option to choose from the list can be done via an informal voting process, under the condition that a volunteer to hold the tutorial is found. Giving a break-out session can be a daunting task: while some experts may have relevant tutorials already prepared from other workshops, often it requires holding a thirty-minute talk with little to no preparation. Organizers can and should take steps to provide a positive, encouraging environment for participants to volunteer their knowledge. They should particularly encourage junior participants, who may often be the most knowledgable about the topics usually requested, to volunteer for break-out sessions. They provide a valuable teaching experience in a friendly environment and offer the opportunity of networking with the larger community.
@@ -96,21 +141,20 @@ To summarize, break-out sessions:
 \item can be daunting to teach, especially for junior participants, and requires the organizing committee to be pro-active about encouraging volunteer teachers
 \end{itemize}
 
-\subsubsection{Hack Sessions}
+\subsection{Hack Sessions}
 
 For hack weeks that place less emphasis on teaching, hack sessions are at the core of the workshop. They provide the opportunity for participants to actively collaborate and in many cases use the knowledge and skills learned in the tutorials on their own data sets. Even though hack sessions are strongly driven by the participants themselves, they require careful planning and vigilant supervision by the organizing committee. In general, hack sessions follow a standard pattern. In the initial stage, participants pitch projects to the group and in some cases request specific expertise (of a certain method, programming language or other skill). Ideally, the organizing committee will encourage participants to post potential projects as early as possible online in a central document, which will allow some organization even before the begin of the hack week. If the hack week admits very junior participants (e.g. undergraduate students or junior graduate students) it may be advisable for the organizing committee to contact experienced participants in advance and ask them to suggest hacks that are appropriate for those junior participants.
 At the hack week itself, the time designated for project work will generally be prefaced by a pitch session, where participants with projects give a short description of their project to the group and request help. For junior participants and those new to the format, this can be daunting, even if (or especially when) they do not have a project themselves. In particular junior participants tend to believe that they do not yet have the skills to contribute meaningfully to any projects. Here, it can be useful to require those participants who are not pitching projects to state their expertise and affirm that every participant has expertise in something. This broad definition of hacking can help the organizers to facilitate inclusion by emphasizing the value in skills such as writing (e.g. for tutorials and documentation), testing code to be released, or other tasks. After pitching, participants self-organize into teams to work on specific projects. Here, organizers should remain aware of participants who may not have found a group, or are having trouble finding a task to work on. This remains true during the week, as some projects are abandoned and others appear. At least one member of the organizing committee should be familiar with the current roster of projects and the experience in the room to help match participants as needed. Tracking ongoing projects can be accomplished online, via real-time collaborative documents, as well as in the physical space, via a diagram of where in the space teams are located.
 Because hack weeks are generally longer than typical hackathons (often limited to just one or two days), this will lead to a variety of shorter projects completed within a day or two, and longer projects going on throughout the week. Regular check-in sessions are helpful for pitching new projects, requesting help on projects stuck at a certain point, and re-matching participants after hacks have been completed or abandoned. These sessions can also be used for completed hacks to be showcased, or intermediate achievements to be presented. At the end of the week we provide ample time for participants to present their projects to the community. We endeavor to design these presentations in a way that builds confidence, especially for junior researchers, and that welcomes all projects regardless of their level of sophistication. The open-ended format of a hack week encourages experimental approaches and new directions, which necessarily will not all be successful. Too often, showcases focus on the most successful and impressive projects, which distorts reality and produces both an unreasonable expectation of what the result of a hack week ought to be as well as a pressure to be successful that can in practice inhibit participants. Therefore, it should be encouraged that participants show failed ideas, not least because the knowledge of why a project failed can be a valuable learning experience beyond the team working on that particular project.
 
-
-\subsection{Facilitating Participation}
+\section{Facilitating Participation}
 
 Admitting a diverse group of participants is only the first step in encouraging collaboration and knowledge exchange. Community building and careful facilitation of both tutorials and project works are arguably the cornerstones of a successful hack week. This is especially important because the group will inevitably include a wide range of personalities, some of which may find it easier to form new bonds and interact with the group than others. At all hack weeks, we have taken concrete steps to address potential issues and foster a welcoming, inclusive atmosphere. Clearly communicating values and expectations at the beginning for the week can help setting the stage for an environment that a large range of different personalities can thrive in. This includes both communication of the code of conduct, putting an emphasis on collaborative rather than competitive behaviour, as well as a discussion of potential issues participants might experience, such as impostor syndrome (see also section below).
 
 From our experience, there are ways in which organizers can influence group dynamics in specific ways to allow timid participants to speak up. As mentioned above, we ask a few participants known to us to occasionally ask questions during tutorials, in order to encourage other participants to do the same. We also designate at least two members of the organizing committee whose role it is to facilitate both tutorials and hack sessions. It is their task to for example manage dominant personalities, which can be both a boon and a hindrance to the success of a hack week. Often, these attendees can be effective at generating excitement and engagement, but can also intimidate and dominate discussions. It is up to the organizers to balance the participation of these attendees with the needs of the rest of the group. Similarly, facilitators at Astro Hack Week spend the majority of hacking time circulating the room, connecting participants without a group to a project, help connect groups who run into a problem with experts who can help out, and make sure group work proceeds in such a way that all members feel valued.
 
 
-\subsubsection{Impostor Syndrome}
+\subsection{Impostor Syndrome}
 
 The \textit{impostor phenomenon}, or \textit{impostor syndrome} (IS) is a dissonant feeling experienced by certain high-achieving individuals, that despite objective evidence to the contrary, they are in fact not as intelligent or capable as they appear.
 Individuals with IS thus experience a fear of being ''found out``, shamed and expelled from their environment \cite{Clance1978-ef}.
@@ -127,10 +171,17 @@ More generally, being open about the presence and prevalence of IS can help part
 Additionally, role models are very effective at encouraging positive behaviour: asking participants with prior experience at hack weeks at all academic levels to ask questions, even when they might know the answer, can help foster an inclusive environment that rewards risk taking.
 
 
-\subsection{What to do after}
+\section{What to do after}
 
 Feedback is a crucial component of a hack week. Because of its experimental design, and the differences in group from year to year, it is important to routinely check whether the workshop still matches up with what participants expect and find useful. Additionally, computational fields tend to be fast-paced; a tutorial given one year might be outdated a few years later. It is thus useful to put some detailed thoughts into the survey. Following from discussions the committee has likely had during the initial stage of preparing the announcement and selecting participants, organizers will want to confront their own expectations before the workshop, and design a survey that allows for both measurements of specific outcomes and goals the organizers are interested in, as well as leave enough free space for participants to self-report outcomes that arose spontaneously or were out of scope of the initial design. It is helpful to design the survey early on and allow for some time near the end of the workshop for participants to fill it out there; in our experience, this leads to much higher response rates than if the survey is distributed after the end of the workshop. While some improvements and changes in the survey design from year to year are inevitable, it is advisable to set a number of core questions that do *not* change from year to year. These questions will allow organizers to assess the workshop's function within their community, and assess how changes to the format between one year and another may affect outcomes of interest.
 
 For tracking tangible outcomes, a central real-time document used during the workshop to keep track of projects can function as a record of productivity. This document might be rewritten as conference proceedings. Additionally, organizers should encourage participants to identify written outcomes with the hack week: for publications, acknowledgments provide a convenient venue. Code repositories can allow this kind of acknowledgment in a \textit{readme} document; GitHub also allows attaching tags to a repository, thus all code repositories that experienced major contributions during the workshop may include a tag specific to the hack week.
 
 On a larger scale, it might be useful to track measures of success more long-term. Those could for example be publication networks for scientists who attended the workshop, their publications as well as their career development. For this purpose, it is useful to keep a way to contact previous participants, via a mailing list or real-time messaging services like \textit{Matrix} or \textit{Slack}.
+
+
+\section{References}
+\bibliographystyle{naturemag}
+\bibliography{paper}
+
+\end{document}
