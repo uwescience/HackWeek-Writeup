@@ -8,20 +8,33 @@ In our experience, a participant group that is diverse across categories of dive
 To achieve this diversity, we advocate for a selection process that is as transparent as possible, enabling participants to hold organizers accountable for their selection decisions.
 Transparency is necessary for applicants to understand acceptance/rejection decisions, and accountability is of crucial importance for the detection of inherent biases in the selection, which may harm both the event's success as well as the larger community.
 
-One way to maximize transparency in the selection process is to minimize human decision making steps that introduce biases, and to transfer some steps to an algorithm that is easily interpreted, openly available, and can be designed to counter the perpetuation of intrinsic biases. 
-We work to achieve this by first assessing the merit of each candidate with respect to the overall goals of the hack week.
-We try to minimize bias in this step by blinding ourselves to a candidate's other attributes, including name and other personal information, and assess their candidacy based soley on questions asked specifically for this purpose.
-When doing this procedure for a large enough sample, it is unlikely that the resulting pool of acceptable candidates is smaller than the number of available spaces at the workshop.
+Research particularly in the hiring literature has shown that cohort selection is most effective and unbiased when selection procedures are as quantitative as possible~\cite{sunstein2015wiser,bohnet2016}. 
+In practice, there are different approaches to counteract intrinsic human biases and provide transparency. 
+Because human decision makers tend to be swayed by unrelated characteristics including name~\cite{bertrand2004} or gender~\cite{mossracusin2012} of an applicant, an initial merit selection blinded to demographic characteristics can be an effective way to counteract certain biases. A merit selection could then perform via scores given independently by members of the organizing committee based on a set of pre-defined, explicit selection criteria. 
+Since human decision makers also routinely overestimate their ability to forecast future performance of a candidate, ~\cite{highhouse2008} it may be beneficial to subsequently set a fairly tolerant threshold for acceptance, and select the cohort via e.g.\ via an algorithm, imposing outside constraints on the selection based on the goals of the workshop. 
 
-The second step in the selection procedure then requires tie-breaking between equally acceptable candidates.
-It is here where one may impose outside constraints on the selection based on the goals of the workshop.
-If multiple competing constraints are considered, this task essentially becomes a complex optimization problem, for which algorithms exist that will outperform any human selection procedure.
-
-One solution to this optimization procedure is implemented in the software \textit{entrofy}\footnote{\url{http://github.com/dhuppenkothen/entrofy}}. The algorithm aims to find a group of participants that together match as closely as possible a requested distribution on specified dimensions (e.g., career stage, geographic location, etc.), to meet pre-set fractions set by the organizers.
-For example, organizers may require that half of the participants (or as close as possible to that) be graduate students, while also maximizing the number of different countries from which participants originate.
-
-It is worth noting that this algorithm is vulnerable toward biases in two ways: firstly, humans will set the target fractions for any category of interest.
-If these targets reproduce the distribution of the overall sample of candidates, the selection will become essentially random.
-Any human biases involved in setting these target fractions will be perpetuated in the selection procedure.
+One solution to the latter problem is implemented in the software \textit{entrofy}\footnote{\url{http://github.com/dhuppenkothen/entrofy}}). 
+The algorithm aims to find a group of participants that together match as closely as possible a requested distribution on specified dimensions (e.g., career stage, geographic location, etc.), to meet pre-set fractions set by the organizers.
+For example, organizers may require that half of the participants (or as close as possible to that) be graduate students, while also maximizing the number of different countries from which participants originate. 
+It is worth noting that this algorithm is vulnerable toward biases in two ways: firstly, humans will set the target fractions for any category of interest.  
+Any human biases involved in setting these target fractions will be perpetuated in the selection procedure. 
 Secondly, perhaps more obviously, the algorithm can only act on information that has been collected.
 Biased participant sets may still result from selection procedures that fail to include crucial categories. For example, it would be difficult to produce a student-heavy participant set for a summer school if the algorithm has no information about academic seniority, and impossible to correct gender bias in the pool of applicants, if no information is available about the gender of participants.
+
+Blinding in the initial merit selection step is most effective at counteracting biases when the hack week targets a very broad population. 
+For more targeted workshops, organizers should be mindful that blinding to demographics might be counterproductive~\cite{behaghel2015unintended} if it excludes participants who might have had less exposure to certain technologies or fewer opportunities to learn certain skills. 
+In this case, it may be beneficial to include demographic characteristics in the first stage. 
+
+No matter the selection procedures used, we encourage organizers to critically examine their cohort selection, experiment with new approaches, and routinely evaluate the different steps in their procedure.  For example, merit scores can be interrogated for shared biases, and one can plot the demographics both before and after the initial selection step to diagnose whether certain groups are preferentially selected or excluded (see also the Supplementary materials for more details on how the previous hack weeks approached this problem). 
+
+
+%One way to maximize transparency in the selection process is to minimize human decision making steps that introduce biases, and to . 
+%We work to achieve this by first assessing the merit of each candidate with respect to the overall goals of the hack week.
+%We try to minimize bias in this step by blinding ourselves to a candidate's other attributes, including name and other personal information, and assess their candidacy based soley on questions asked specifically for this purpose.
+%When doing this procedure for a large enough sample, it is unlikely that the resulting pool of acceptable candidates is smaller than the number of available spaces at the workshop.
+
+%The second step in the selection procedure then requires tie-breaking between equally acceptable candidates.
+%It is here where one may impose outside constraints on the selection based on the goals of the workshop.
+%If multiple competing constraints are considered, this task essentially becomes a complex optimization problem, for which algorithms exist that will outperform any human selection procedure.
+
+%One solution to this optimization procedure is implemented in the software \textit{entrofy}\footnote{\url{http://github.com/dhuppenkothen/entrofy}}. 
