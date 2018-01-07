@@ -1,6 +1,6 @@
 LATEX=pdflatex
 BIBTEX=bibtex
-REPORT=paper-pnas
+REPORT=paper
 SUPP=supplementary_material
 
 SRCS=$(wildcard *.tex)
