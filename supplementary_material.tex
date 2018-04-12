@@ -36,6 +36,8 @@
 \renewenvironment*{figure}{\@float{figure}}{\end@float}
 \makeatother
 
+\setcounter{tocdepth}{3}
+
 \begin{document}
 
 \maketitle
@@ -51,7 +53,15 @@
 \item{Berkeley Institute for Data Science \& Berkeley Initiative in Global Change Biology, University of California, Berkeley,  Berkeley CA 94720}
 \end{affiliations}
 
+\newpage
+
+\tableofcontents
+
+\newpage
+
 \noindent While the main text of this paper remains fairly theoretical, we aim to lay out more practical advice regarding the organization of a hack week in this supplement. 
+
+
 
 \section{What to do before}
 
@@ -72,9 +82,9 @@ Accessibility should be taken into consideration: is the space accessible for pa
 
 \section{Event Size and Duration}
 
-Event size (i.e. the number of attendees) and event duration are important to consider during the design and planning phase of a hack week. All hack weeks held so far have had group sizes between 40-60 participants. The number of attendees resulted from a number of different design considerations. One practical consideration was the size of the available location: especially the project-focused parts of a hack week generally require a reconfigurable space with more seats than attendees, such that spontaneous organization in sub-groups is easy. However, group size is also important in the context of community building, group dynamics and programme decisions. We limited group size to a maximum of 70 participants, because previous anecdotal evidence has shown us that this is about the maximum group size where interactions between all participants is still possible. We wanted to ensure that all participants had an opportunity to at least meet all other participants, in order to facilitate community building and keep the group from fracturing into cliques. Another important consideration is representation along the many axes of diversity we considered. For example, whereas a single undergraduate participant might feel like an outsider, admitting three or four can mitigate alienation. Similarly, in order to foster active collaboration among many different subfields, we endeavored to admit participants with many different types of overlapping expertise. Having a set of participants that is too small would interfere both with these goals of representation and of fostering interdisciplinary collaborations and networking, thus we would advise admitting at least $\sim$30 or so participants if these objectives are an important part of the hack week.
+Event size (i.e. the number of attendees) and event duration are important to consider during the design and planning phase of a hack week. All hack weeks we have organized so far have had group sizes between 40-60 participants. The number of attendees resulted from a number of different design considerations. One practical consideration was the size of the available location: especially the project-focused parts of a hack week generally require a reconfigurable space with more seats than attendees, such that spontaneous organization in sub-groups is easy. However, group size is also important in the context of community building, group dynamics and programme decisions. We limited group size to a maximum of 70 participants, because previous anecdotal evidence has shown us that this is about the maximum group size where interactions between all participants is still possible. We wanted to ensure that all participants had an opportunity to at least meet all other participants, in order to facilitate community building and keep the group from fracturing into cliques. Another important consideration is representation along the many axes of diversity we considered. For example, whereas a single undergraduate participant might feel like an outsider, admitting three or four can mitigate alienation. Similarly, in order to foster active collaboration among many different subfields, we endeavored to admit participants with many different types of overlapping expertise. Having a set of participants that is too small would interfere both with these goals of representation and of fostering interdisciplinary collaborations and networking, thus we would advise admitting at least $\sim$30 or so participants if these objectives are an important part of the hack week.
 
-All hack weeks organized up to now have been five days. This duration was chosen to allow enough time for both learning and project work at the same time. Participants often arrived with ambitious project ideas, or with the goal of taking newly learned methods and applying them to their data sets right away. Thus many projects tended to extend over multiple days. Attendees who participated in multiple projects often used the hack week to try out several different ideas. A five-day hack week allows for ample time for these ambitious projects or experimentation, where a shorter hack week would necessarily have to be more constrained and focused. At the same time, hack weeks tend to be exhausting. Project work often extends into the evenings, and requires prolonged phases of high concentration of participants, thus we limited our hack weeks to five days in order to avoid excessive fatigue among our attendees.
+All hack weeks organized by us up to now have been five days. This duration was chosen to allow enough time for both learning and project work at the same time. Participants often arrived with ambitious project ideas, or with the goal of taking newly learned methods and applying them to their data sets right away. Thus many projects tended to extend over multiple days. Attendees who participated in multiple projects often used the hack week to try out several different ideas. A five-day hack week allows for ample time for these ambitious projects or experimentation, where a shorter hack week would necessarily have to be more constrained and focused. At the same time, hack weeks tend to be exhausting. Project work often extends into the evenings, and requires prolonged phases of high concentration of participants, thus we limited our hack weeks to five days in order to avoid excessive fatigue among our attendees.
 
 It is worth noting, however, that these guidelines were developed out of design considerations rather than experimentation and testing. In the future, we plan to experiment with the format, duration and size of these events and continue to evaluate their interplay with our objectives.
 
@@ -160,7 +170,7 @@ Because hack weeks are generally longer than typical hackathons (often limited t
 
 \section{Facilitating Participation}
 
-Admitting a diverse group of participants is only the first step in encouraging collaboration and knowledge exchange. Community building and careful facilitation of both tutorials and project works are arguably the cornerstones of a successful hack week. This is especially important because the group will inevitably include a wide range of personalities, some of which may find it easier to form new bonds and interact with the group than others. At all hack weeks, we have taken concrete steps to address potential issues and foster a welcoming, inclusive atmosphere. Clearly communicating values and expectations at the beginning for the week can help setting the stage for an environment in which a large range of different personalities can thrive. This includes both communication of the code of conduct, putting an emphasis on collaborative rather than competitive behaviour, as well as a discussion of potential issues participants might experience, such as impostor syndrome (see also section below).
+Admitting a diverse group of participants is only the first step in encouraging collaboration and knowledge exchange. Community building and careful facilitation of both tutorials and project works are arguably the cornerstones of a successful hack week. This is especially important because the group will inevitably include a wide range of personalities, some of which may find it easier to form new bonds and interact with the group than others. At all hack weeks we have organized, we have taken concrete steps to address potential issues and foster a welcoming, inclusive atmosphere. Clearly communicating values and expectations at the beginning for the week can help setting the stage for an environment in which a large range of different personalities can thrive. This includes both communication of the code of conduct, putting an emphasis on collaborative rather than competitive behaviour, as well as a discussion of potential issues participants might experience, such as impostor syndrome (see also section below).
 
 From our experience, there are ways in which organizers can influence group dynamics in specific ways to allow timid participants to speak up. As mentioned above, we ask a few participants known to us to occasionally ask questions during tutorials, in order to encourage other participants to do the same. We also designate at least two members of the organizing committee whose role it is to facilitate both tutorials and hack sessions. It is their task to for example manage dominant personalities, which can be both a boon and a hindrance to the success of a hack week. Often, these attendees can be effective at generating excitement and engagement, but can also intimidate and dominate discussions. It is up to the organizers to balance the participation of these attendees with the needs of the rest of the group. Similarly, facilitators at Astro Hack Week spend the majority of hacking time circulating the room, connecting participants without a group to a project, help connect groups who run into a problem with experts who can help out, and make sure group work proceeds in such a way that all members feel valued.
 
@@ -192,6 +202,171 @@ For tracking tangible outcomes, a central real-time document used during the wor
 
 On a larger scale, it might be useful to track measures of success more long-term. Those could for example be publication networks for scientists who attended the workshop, their publications as well as their career development. For this purpose, it is useful to keep a way to contact previous participants, via a mailing list or real-time messaging services like \textit{Matrix} or \textit{Slack}.
 
+
+\section{Additional Figures}
+
+Here, we present a number of additional figures related to the survey data presented in the main manuscript. The stacked bar charts presented here allow a closer look at the data that produced the results quoted in Table 1 of the manuscript.
+
+\subsection{Career stage}
+
+Here we explore a number of survey responses with career stage as an independent variable.
+
+\begin{figure*}[h!]
+%\begin{center}
+%\begin{subfigure}[t]{\textwidth}
+\centering
+%\caption{}
+\includegraphics[width=\textwidth]{Q23_3_Q3_stackedbars.eps}
+%\end{subfigure}
+\caption{}
+\label{fig:survey}
+%\end{center}
+\end{figure*}
+
+\begin{figure*}[h!]
+%\begin{center}
+%\begin{subfigure}[t]{\textwidth}
+\centering
+%\caption{}
+\includegraphics[width=\textwidth]{Q24_3_Q3_stackedbars.eps}
+%\end{subfigure}
+\caption{}
+\label{fig:survey}
+%\end{center}
+\end{figure*}
+
+\begin{figure*}[h!]
+%\begin{center}
+%\begin{subfigure}[t]{\textwidth}
+\centering
+%\caption{}
+\includegraphics[width=\textwidth]{Q24_4_Q3_stackedbars.eps}
+%\end{subfigure}
+\caption{}
+\label{fig:survey}
+%\end{center}
+\end{figure*}
+
+\begin{figure*}[h!]
+%\begin{center}
+%\begin{subfigure}[t]{\textwidth}
+\centering
+%\caption{}
+\includegraphics[width=\textwidth]{Q23_2_Q3_stackedbars.eps}
+%\end{subfigure}
+\caption{}
+\label{fig:survey}
+%\end{center}
+\end{figure*}
+
+\clearpage 
+
+\subsection{Gender Identity}
+
+Here we explore a number of survey responses with gender identity as an independent variable.
+
+
+\begin{figure*}[h!]
+%\begin{center}
+%\begin{subfigure}[t]{\textwidth}
+\centering
+%\caption{}
+\includegraphics[width=\textwidth]{Q24_4_Q27_stackedbars.eps}
+%\end{subfigure}
+\caption{}
+\label{fig:survey}
+%\end{center}
+\end{figure*}
+
+\begin{figure*}[h!]
+%\begin{center}
+%\begin{subfigure}[t]{\textwidth}
+\centering
+%\caption{}
+\includegraphics[width=\textwidth]{Q23_2_Q27_stackedbars.eps}
+%\end{subfigure}
+\caption{}
+\label{fig:survey}
+%\end{center}
+\end{figure*}
+
+\begin{figure*}[h!]
+%\begin{center}
+%\begin{subfigure}[t]{\textwidth}
+\centering
+%\caption{}
+\includegraphics[width=\textwidth]{Q24_5_Q27_stackedbars.eps}
+%\end{subfigure}
+\caption{}
+\label{fig:survey}
+%\end{center}
+\end{figure*}
+
+\begin{figure*}[h!]
+%\begin{center}
+%\begin{subfigure}[t]{\textwidth}
+\centering
+%\caption{}
+\includegraphics[width=\textwidth]{Q19_5_Q27_stackedbars.eps}
+%\end{subfigure}
+\caption{}
+\label{fig:survey}
+%\end{center}
+\end{figure*}
+
+\clearpage
+
+\subsection{Racial/Ethnic Identity}
+
+Here we explore a number of survey responses with racial/ethnic identity as an independent variable.
+
+\begin{figure*}[h!]
+%\begin{center}
+%\begin{subfigure}[t]{\textwidth}
+\centering
+%\caption{}
+\includegraphics[width=\textwidth]{Q24_4_Q30_stackedbars.eps}
+%\end{subfigure}
+\caption{}
+\label{fig:survey}
+%\end{center}
+\end{figure*}
+
+\begin{figure*}[h!]
+%\begin{center}
+%\begin{subfigure}[t]{\textwidth}
+\centering
+%\caption{}
+\includegraphics[width=\textwidth]{Q23_2_Q30_stackedbars.eps}
+%\end{subfigure}
+\caption{}
+\label{fig:survey}
+%\end{center}
+\end{figure*}
+
+\begin{figure*}[h!]
+%\begin{center}
+%\begin{subfigure}[t]{\textwidth}
+\centering
+%\caption{}
+\includegraphics[width=\textwidth]{Q24_5_Q30_stackedbars.eps}
+%\end{subfigure}
+\caption{}
+\label{fig:survey}
+%\end{center}
+\end{figure*}
+
+\begin{figure*}[h!]
+%\begin{center}
+%\begin{subfigure}[t]{\textwidth}
+\centering
+%\caption{}
+\includegraphics[width=\textwidth]{Q19_5_Q30_stackedbars.eps}
+%\end{subfigure}
+\caption{}
+\label{fig:survey}
+%\end{center}
+\end{figure*}
 
 \section{References}
 \bibliographystyle{naturemag}
