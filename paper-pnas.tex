@@ -20,16 +20,16 @@
 \title{Hack Weeks as a model for Data Science Education and Collaboration}
 
 % Use letters for affiliations, numbers to show equal authorship (if applicable) and to indicate the corresponding author
-\author[a,b,c,1]{Daniela Huppenkothen}
+\author[a,b,c,e,1]{Daniela Huppenkothen}
 \author[d,e]{Anthony Arendt}
-\author[b,a,f,g]{David W. Hogg}
+\author[c,b,f,g]{David W. Hogg}
 \author[h]{Karthik Ram}
 \author[e]{Jake VanderPlas}
 \author[e]{Ariel Rokem}
 
-\affil[a]{Center for Data Science, New York University, 65 5th Avenue, 7th Floor, New York, NY 10003, USA}
-\affil[b]{Center for Cosmology and Particle Physics, New York University, 726 Broadway, 10th Floor, New York, NY 10003, USA}
-\affil[c]{DIRAC Institute, Department of Astronomy, University of Washington, 3910 15th Ave NE, Seattle, WA 98195, USA}
+\affil[a]{DIRAC Institute, Department of Astronomy, University of Washington, 3910 15th Ave NE, Seattle, WA 98195, USA}
+\affil[b]{Center for Data Science, New York University, 65 5th Avenue, 7th Floor, New York, NY 10003, USA}
+\affil[c]{Center for Cosmology and Particle Physics, New York University, 726 Broadway, 10th Floor, New York, NY 10003, USA}
 \affil[d]{Polar Science Center/Applied Physics Laboratory, University of Washington, 1013 NE 40th Street, Box 355640, Seattle, WA 98105-6698}
 \affil[e]{The University of Washington eScience Institute, The WRF Data Science Studio, Physics/Astronomy Tower, 6th Floor, 3910 15th Ave NE, Campus Box 351570, University of Washington, Seattle, WA 98105, USA}
 \affil[f]{Max-Planck-Institut f\"ur Astronomie, K\"onigstuhl 17, D-69117 Heidelberg}
@@ -47,7 +47,7 @@
 
 \authordeclaration{The authors declare no conflicts of interest.}
 %\equalauthors{\textsuperscript{1}A.O.(Author One) and A.T. (Author Two) contributed equally to this work (remove if not applicable).}
-\correspondingauthor{\textsuperscript{1}To whom correspondence should be addressed. E-mail: daniela.huppenkothen@nyu.edu}
+\correspondingauthor{\textsuperscript{1}To whom correspondence should be addressed. E-mail: dhuppenk@uw.edu}
 
 % Keywords are not mandatory, but authors are strongly encouraged to provide them. If provided, please include two to five keywords, separated by the pipe symbol, e.g:
 \keywords{Data science $|$ Education $|$ Reproducibility $|$ Interdisciplinary Collaboration $|$ Astronomy $|$ Neuroscience $|$ Geosciences}
@@ -207,9 +207,9 @@
 \matmethods{
 We performed post-attendance surveys for AHW, GHW and NHW in 2016 and 2017. All surveys contained general questions about attitudes towards the workshop as well as open science and reproducibility, and their own skills in statistical and computational methods, shared among all three surveys. The NHW and GHW surveys and the AHW 2017 survey were administered on site on the last day of the workshop; AHW participants in 2016 were e-mailed immediately after the workshop, with reminders after several weeks. All responses were collected within four weeks of the end of the workshop. The experimental procedures were approved by the Institutional Review Boards at UW, NYU and UC Berkeley. All participants gave their informed consent.
 
-Response rates for NHW (2016: 41 responses; 2017: 45 responses) and GHW (2016: 42 responses; 2017: 41 responses) were 100\% in both years; the response rate for AHW was 71\% (35 out of 49) in 2016 and 82\% (37 out of 45) in 2017. The lower response rates for AHW can be explained by the generally lower rates of response for time-delayed survey in 2016. In 2017, a number of participants did not attend the full week, and thus several attendees were not present on the last day when the survey was administered. For the AHW surveys, we checked whether the demographics of the respondents different significantly from those of the attendees overall in three relevant categories (career stage, racial/ethnic background and gender identity) and find no significant difference after grouping responses in demographic categories, in order to improve the number of participants per category and response. We grouped responses in the career stage category into ``early-career'' (students and postdoctoral fellows), ``late-career'' (faculty, research scientists) and ``other'' (e.g. participants from outside academia). For race/ethnicity and gender, we grouped participants into ``minority'' (with respect to the field) and ``non-minority'' participants. Note that demographic data for GHW and NHW is only available for 2016, for AHW for both 2016 and 2017.
+Response rates for NHW (2016: 41 responses; 2017: 45 responses) and GHW (2016: 42 responses; 2017: 41 responses) were 100\% in both years; the response rate for AHW was 71\% (35 out of 49) in 2016 and 82\% (37 out of 45) in 2017. The lower response rates for AHW can be explained by the generally lower rates of response for time-delayed survey in 2016. In 2017, a number of participants did not attend the full week, and thus several attendees were not present on the last day when the survey was administered. For the AHW surveys, we checked whether the demographics of the respondents different significantly from those of the attendees overall in three relevant categories (career stage, racial/ethnic background and gender identity) and find no significant difference for any of the groups except for career stage in 2017: here, we find that graduate students are underrepresented (27\% of respondents compared to 41\% of attendees), while undergraduate students are overrepresented (25\% of respondents compared to 12\% of attendees). Because we group responses in the career stage category into categories ``early-career'' (students and postdoctoral fellows), ``late-career'' (faculty, research scientists) and ``other'' (e.g. participants from outside academia), this discrepancy has no bearing on the results we report. For gender, we grouped participants into ``minority'' (women and non-binary) and ``non-minority'' (men) participants; similarly, for race and ethnicity, we also chose ``minority'' (all but Caucasian participants) and ``non-minority'' (Cauciasian) categories. Note that demographic data for GHW and NHW is only available for 2016, for AHW for both 2016 and 2017.
 
-Participants were asked to respond to statements regarding these topics using a six-point Likert-type scale. All questions were anonymously recorded. No responses were discarded, and no pre-processing was performed on the data. We test for correlations between categorical variables using a standard $\chi^2$ test and compute the effect sizes via a bias-corrected version of Cram\'{e}r's V \citep{bergsma2013}, denoted $\phi_c$ in the manuscript. For a fairly permissive significant threshold of $\alpha < 0.05$, we require a $p$-value of $p < 0.0007$, corrected for $N_\mathrm{trials} = 36$ trials, to claim a significant effect as well as at least a small effect size according to \citet{cohen1988}. The full analysis procedure is available online\footnote{See the repository: \url{https://github.com/uwescience/HackWeek-Writeup}}.
+Participants were asked to respond to statements regarding these topics using a six-point Likert-type scale. All questions were anonymously recorded. No responses were discarded, and no pre-processing was performed on the data. We test for correlations between demographic characteristics (independent variable) and question responses (dependent variable) using a standard $\chi^2$ test and compute the effect sizes via a bias-corrected version of Cram\'{e}r's V \citep{cramer1946,bergsma2013}, denoted $\phi_c$ in the manuscript. For a fairly permissive significant threshold of $\alpha < 0.05$, we require a $p$-value of $p < 0.0007$, corrected for $N_\mathrm{trials} = 36$ trials, to claim a significant effect as well as at least a small effect size according to \citet{cohen1988}. The full analysis procedure is available online\footnote{See the repository: \url{https://github.com/uwescience/HackWeek-Writeup}}.
 
 %\subsection*{Subsection for Method}
 %Example text for subsection.

@@ -3,7 +3,7 @@
 %% Written by Peter Czoschke, 26 February 2004
 %%
 
-\documentclass{nature}
+\documentclass{aastex62}
 
 %% make sure you have the nature.cls and naturemag.bst files where
 %% LaTeX can find them
@@ -22,36 +22,71 @@
 \linespread{1.2}
 
 
-\title{Supplementary material for "Hack Weeks as a model for Data Science Education and Collaboration"}
 
-%% Notice placement of commas and superscripts and use of &
-%% in the author list
-
-\author{Daniela Huppenkothen$^{1,2,3}$, Anthony Arendt$^{4,5}$, David W. Hogg$^{2,1,6,7}$, Karthik Ram$^8$, Jake VanderPlas$^5$, and Ariel Rokem$^5$}
+%\author{Daniela Huppenkothen$^{1,2,3}$, Anthony Arendt$^{4,5}$, David W. Hogg$^{2,1,6,7}$, Karthik Ram$^8$, Jake VanderPlas$^5$, and Ariel Rokem$^5$}
 
 
-\makeatletter
-\let\saved@includegraphics\includegraphics
-\AtBeginDocument{\let\includegraphics\saved@includegraphics}
-\renewenvironment*{figure}{\@float{figure}}{\end@float}
-\makeatother
+%\makeatletter
+%\let\saved@includegraphics\includegraphics
+%\AtBeginDocument{\let\includegraphics\saved@includegraphics}
+%\renewenvironment*{figure}{\@float{figure}}{\end@float}
+%\makeatother
+
+%\renewcommand*\thesection{\arabic{section}}
+%\renewcommand*\thesubsection{\arabic{subsection}}
 
 \setcounter{tocdepth}{3}
 
 \begin{document}
 
-\maketitle
+\title{Supplementary material for "Hack Weeks as a model for Data Science Education and Collaboration"}
 
-\begin{affiliations}
-\item{Center for Data Science, New York University, 65 5th Avenue, 7th Floor, New York, NY 10003, USA}
-\item{Center for Cosmology and Particle Physics, New York University, 726 Broadway, 10th Floor, New York, NY 10003, USA}
-\item{DIRAC Institute, Department of Astronomy, University of Washington, 3910 15th Ave NE, Seattle, WA 98195, USA}
-\item{Polar Science Center/Applied Physics Laboratory, University of Washington, 1013 NE 40th Street, Box 355640, Seattle, WA 98105-6698}
-\item{The University of Washington eScience Institute, The WRF Data Science Studio, Physics/Astronomy Tower, 6th Floor, 3910 15th Ave NE, Campus Box 351570, University of Washington, Seattle, WA 98105, USA}
-\item{Max-Planck-Institut f\"ur Astronomie, K\"onigstuhl 17, D-69117 Heidelberg}
-\item{Center for Computational Astrophysics, Flatiron Institute, 162 5th Ave, New York, NY 10010, USA}
-\item{Berkeley Institute for Data Science \& Berkeley Initiative in Global Change Biology, University of California, Berkeley,  Berkeley CA 94720}
-\end{affiliations}
+%% Notice placement of commas and superscripts and use of &
+%% in the author list
+
+\author{Daniela Huppenkothen}
+\altaffiliation{dhuppenk@uw.edu}
+\affiliation{DIRAC Institute, Department of Astronomy, University of Washington, 3910 15th Ave NE, Seattle, WA 98195, USA}
+\affiliation{Center for Data Science, New York University, 65 5th Avenue, 7th Floor, New York, NY 10003, USA}
+\affiliation{Center for Cosmology and Particle Physics, New York University, 726 Broadway, 10th Floor, New York, NY 10003, USA}
+\nocollaboration
+
+\author{Anthony Arendt}
+\affiliation{Polar Science Center/Applied Physics Laboratory, University of Washington, 1013 NE 40th Street, Box 355640, Seattle, WA 98105-6698}
+\affiliation{The University of Washington eScience Institute, The WRF Data Science Studio, Physics/Astronomy Tower, 6th Floor, 3910 15th Ave NE, Campus Box 351570, University of Washington, Seattle, WA 98105, USA}
+\nocollaboration
+
+\author{David W. Hogg}
+\affiliation{Center for Cosmology and Particle Physics, New York University, 726 Broadway, 10th Floor, New York, NY 10003, USA}
+\affiliation{Center for Data Science, New York University, 65 5th Avenue, 7th Floor, New York, NY 10003, USA}
+\affiliation{Max-Planck-Institut f\"ur Astronomie, K\"onigstuhl 17, D-69117 Heidelberg}
+\affiliation{Center for Computational Astrophysics, Flatiron Institute, 162 5th Ave, New York, NY 10010, USA}
+\nocollaboration
+
+\author{Karthik Ram}
+\affiliation{Berkeley Institute for Data Science \& Berkeley Initiative in Global Change Biology, University of California, Berkeley,  Berkeley CA 94720}
+\nocollaboration
+
+\author{Jake VanderPlas}
+\affiliation{The University of Washington eScience Institute, The WRF Data Science Studio, Physics/Astronomy Tower, 6th Floor, 3910 15th Ave NE, Campus Box 351570, University of Washington, Seattle, WA 98105, USA}
+\nocollaboration
+
+\author{Ariel Rokem}
+\affiliation{The University of Washington eScience Institute, The WRF Data Science Studio, Physics/Astronomy Tower, 6th Floor, 3910 15th Ave NE, Campus Box 351570, University of Washington, Seattle, WA 98105, USA}
+\nocollaboration
+
+%\maketitle
+
+%\begin{affiliations}
+%\item{Center for Data Science, New York University, 65 5th Avenue, 7th Floor, New York, NY 10003, USA}
+%\item{Center for Cosmology and Particle Physics, New York University, 726 Broadway, 10th Floor, New York, NY 10003, USA}
+%\item{DIRAC Institute, Department of Astronomy, University of Washington, 3910 15th Ave NE, Seattle, WA 98195, USA}
+%\item{Polar Science Center/Applied Physics Laboratory, University of Washington, 1013 NE 40th Street, Box 355640, Seattle, WA 98105-6698}
+%\item{The University of Washington eScience Institute, The WRF Data Science Studio, Physics/Astronomy Tower, 6th Floor, 3910 15th Ave NE, Campus Box 351570, University of Washington, Seattle, WA %98105, USA}
+%\item{Max-Planck-Institut f\"ur Astronomie, K\"onigstuhl 17, D-69117 Heidelberg}
+%\item{Center for Computational Astrophysics, Flatiron Institute, 162 5th Ave, New York, NY 10010, USA}
+%\item{Berkeley Institute for Data Science \& Berkeley Initiative in Global Change Biology, University of California, Berkeley,  Berkeley CA 94720}
+%\end{affiliations}
 
 \newpage
 
@@ -82,7 +117,7 @@ Accessibility should be taken into consideration: is the space accessible for pa
 
 \section{Event Size and Duration}
 
-Event size (i.e. the number of attendees) and event duration are important to consider during the design and planning phase of a hack week. All hack weeks we have organized so far have had group sizes between 40-60 participants. The number of attendees resulted from a number of different design considerations. One practical consideration was the size of the available location: especially the project-focused parts of a hack week generally require a reconfigurable space with more seats than attendees, such that spontaneous organization in sub-groups is easy. However, group size is also important in the context of community building, group dynamics and programme decisions. We limited group size to a maximum of 70 participants, because previous anecdotal evidence has shown us that this is about the maximum group size where interactions between all participants is still possible. We wanted to ensure that all participants had an opportunity to at least meet all other participants, in order to facilitate community building and keep the group from fracturing into cliques. Another important consideration is representation along the many axes of diversity we considered. For example, whereas a single undergraduate participant might feel like an outsider, admitting three or four can mitigate alienation. Similarly, in order to foster active collaboration among many different subfields, we endeavored to admit participants with many different types of overlapping expertise. Having a set of participants that is too small would interfere both with these goals of representation and of fostering interdisciplinary collaborations and networking, thus we would advise admitting at least $\sim$30 or so participants if these objectives are an important part of the hack week.
+Event size (i.e. the number of attendees) and event duration are important to consider during the design and planning phase of a hack week. All hack weeks we have organized so far have had group sizes between 40-60 participants. The number of attendees resulted from a number of different design considerations. One practical consideration was the size of the available location: especially the project-focused parts of a hack week generally require a reconfigurable space with more seats than attendees, such that spontaneous organization in sub-groups is easy. However, group size is also important in the context of community building, group dynamics and programme decisions. We limited group size to a maximum of 70 participants, because previous anecdotal evidence has shown us that this is about the maximum group size where interactions between all participants is still possible. We wanted to ensure that all participants had an opportunity to at least meet all other participants, in order to facilitate community building and keep the group from fracturing into cliques. Another important consideration is representation along the many axes of diversity we considered. For example, whereas a single undergraduate participant might feel like an outsider, admitting three or four can mitigate alienation. Similarly, in order to foster active collaboration among many different subfields, we endeavored to admit participants with many different types of overlapping expertise. Having a set of participants that is too small could interfere both with these goals of representation and of fostering interdisciplinary collaborations and networking. Smaller groups (of less than $\sim$30 participants or so) will need to attend to participant selection particularly carefully in order to achieve the desired level of diversity across participants. 
 
 All hack weeks organized by us up to now have been five days. This duration was chosen to allow enough time for both learning and project work at the same time. Participants often arrived with ambitious project ideas, or with the goal of taking newly learned methods and applying them to their data sets right away. Thus many projects tended to extend over multiple days. Attendees who participated in multiple projects often used the hack week to try out several different ideas. A five-day hack week allows for ample time for these ambitious projects or experimentation, where a shorter hack week would necessarily have to be more constrained and focused. At the same time, hack weeks tend to be exhausting. Project work often extends into the evenings, and requires prolonged phases of high concentration of participants, thus we limited our hack weeks to five days in order to avoid excessive fatigue among our attendees.
 
@@ -94,7 +129,10 @@ As we lay out in the main text, participant selection is one of the most importa
 Because selection procedures are subject to a whole range of human biases, it is worth thinking critically about established procedures and how to improve them. At the same time, hack weeks are comparatively lower-stakes events than other situations where cohort selection is relevant, like e.g.\ graduate school admissions, thus hack weeks may also serve as test beds for experimentation and improvements that can inform selection in other contexts.
 
 The hack weeks presented here used different approaches, that nevertheless share several common themes and ideas. In particular, they focus on making the selection procedure as quantitative as possible and use the data collected during each stage of the process to critically evaluate the efficacy of the process and its subject to human bias.
-Secondly, much energy is expended early on in the design of the application form, which often use a combination of open-answer and multiple-choice questions to assess candidates' suitability, skill levels and backgrounds. Care must be taken when designing questions assessing skill levels, because options such as ``beginner'' or ``expert'' have no absolute scaling and may have different meanings to different applicants. They may also be subject to intrinsic biases, if candidates of certain backgrounds systematically underestimate or overestimate their skill levels compared to other candidates (the Dunning Kruger effect). It is thus advisable to calibrate skill levels on concrete milestones. For example, instead of asking participants whether they are ``beginners'' or ``experts'' at machine learning, we instead asked them whether they had done machine learning for class work, had used techniques from machine learning in their own research, or had developed and implemented their own methods. Similarly, questions about programming skills may ask whether participants can perform a particular task in one of a list of languages (e.g., ``write a module or a library''). Responding to questions about demographic characteristics should generally be optional, and organizers should consider how these questions might interact adversely with workshop goals, e.g.\ via stereotype threat. For example, Astro Hack Week only asked whether an applicant considered themselves a minority with respect to gender identity within astronomy, rather than asking them to explicitly self-identify within a specific category. Meanwhile, neuro hack week opted to ask about gender ethnicity and race, using questions that are standardly used for example, when collecting statistics about study participants.
+Secondly, much energy is expended early on in the design of the application form, which often use a combination of open-answer and multiple-choice questions to assess candidates' suitability, skill levels and backgrounds. Care must be taken when designing questions assessing skill levels, because options such as ``beginner'' or ``expert'' have no absolute scaling and may have different meanings to different applicants. They may also be subject to intrinsic biases, if candidates of certain backgrounds systematically underestimate or overestimate their skill levels compared to other candidates (the Dunning Kruger effect). It is thus advisable to calibrate skill levels on concrete milestones. For example, instead of asking participants whether they are ``beginners'' or ``experts'' at machine learning, we instead asked them whether they had done machine learning for class work, had used techniques from machine learning in their own research, or had developed and implemented their own methods. Similarly, questions about programming skills may ask whether participants can perform a particular task in one of a list of languages (e.g., ``write a module or a library'').
+Responding to questions about demographic characteristics should generally be optional, and organizers should consider how these questions might interact adversely with workshop goals, e.g.\ via stereotype threat. For example, Astro Hack Week only asked whether an applicant considered themselves a minority with respect to gender identity within astronomy, rather than asking them to explicitly self-identify within a specific category. Meanwhile, neuro hack week opted to ask about gender ethnicity and race, using questions that are standardly used for example, when collecting statistics about study participants.
+
+ \textbf{For any kind of merit-based selection, committees should critically examine their assumptions about reasonable expectations regarding (minimum) skill levels required for participation. Candidates from underrepresented groups, smaller institutions or other countries may have had fewer opportunities to learn relevant skills. Consequently, in a merit-based selection based on these skills these questions may effectively trace demographic diversity and lead to biased selections even when committees are overall vigilant. If a strict merit-based selection is part of the procedure, it should be performed with these caveats in mind. It is always a good idea to check the results of any selection procedure for intrinsic biases. For example, visual comparisons of the group selected based on merit versus the group not selected with respect to various demographic variables may easily reveal unintended biases introduced at this stage, and the procedure can be adjusted and refined.}
 
 The overall selection procedure for Astro Hack Week comprised a two-step process. In the initial step, we performed a blind assessment for suitability using open-ended questions querying candidates' motivations for attending the workshop, and their goals for attending. We only excluded a small fraction ($<10\%$) of applicants at this step, because our goals aligned with admitting a wide range of different skill levels and backgrounds. Applicants were generally either excluded for being an obvious mismatch with the workshop goals (as in the case of an Android developer applying to work on an unrelated game) or for being duplicate entries. We subsequently used a range of categories queried with multiple-choice questions  on the application to maximize diversity across these categories, which included career stage, gender identity, racial/ethnic identity, geographic origin, programming background, machine learning skills, statistics knowledge, and previous attendance at Astro Hack Week. Targets within each categories were set according to the different workshop goals. For example, we set ambitious goals of admitting 50\% attendees from underrepresented minorities with respect to gender, race and ethnicity with the goal of increasing representation of these groups with astronomy and data science. Similarly, we set targets for other categories (e.g. skill levels) in order to maximize goals around collaboration, networking and fostering interdisciplinary exchange of knowledge. Subsequently, we used a greedy optimization algorithm to jointly optimize over all categories simultaneously. We evaluated our results by directly comparing the characteristics of the selected set of participants with both our targets and the distribution of the set of all candidates. For demographic characteristics specifically, 42\% of participants in both 2016 and 2017 considered themselves a minority with respect to gender identity in astronomy, and 32\% of participants in 2016 (2017: 33\%) considered themselves a minority with respect to racial or ethnic identity. About half of the attendees were students ($\sim$40\% graduate students, $\sim$10\% undergraduate students), another $25\%$ postdoctoral fellow, and the remainder about equally split between research staff, tenured and tenure-track faculty, and participants in non-academic careers.
 
@@ -368,8 +406,8 @@ Here we explore a number of survey responses with racial/ethnic identity as an i
 %\end{center}
 \end{figure*}
 
-\section{References}
-\bibliographystyle{naturemag}
+\newpage
+\bibliographystyle{aasjournal}
 \bibliography{paper}
 
 \end{document}
