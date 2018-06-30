@@ -19,6 +19,7 @@
 \usepackage{booktabs}
 \usepackage{threeparttable}
 \usepackage{tabularx}
+%\usepackage{pdflscape}
 \linespread{1.2}
 
 
@@ -99,67 +100,71 @@
 \label{sec:suppmaterials}
 We performed post-attendance surveys for AHW, GHW, and NHW in 2016 and 2017. All surveys contained general questions about attitudes towards the workshop, as well as open science and reproducibility, shared among all three surveys. The NHW and GHW surveys and the AHW 2017 survey were administered on site on the last day of the workshop; AHW participants in 2016 were e-mailed immediately after the workshop, with reminders after several weeks. All responses were collected within four weeks of the end of their respective workshops. The experimental procedures were approved by the Institutional Review Boards at UW, NYU, and UC Berkeley. All participants gave informed consent.
 
-Response rates for NHW (2016: 41 responses; 2017: 45 responses) and GHW (2016: 42 responses; 2017: 41 responses) were 100 percent in both years; the response rate for AHW was 71 percent (35 out of 49) in 2016 and 82 percent (37 out of 45) in 2017. The lower response rates for AHW can be explained by the generally lower rates of response for the time-delayed survey in 2016. In 2017, a number of participants did not attend the full week, and thus several attendees were not present on the last day when the survey was administered. For the AHW surveys, we checked whether the demographics of the respondents diï¬€ered signiï¬cantly from those of the attendees overall in three relevant categories (career stage, racial/ethnic background, and gender identity) and found no signiï¬cant diï¬€erence for any of the groups except for career stage in 2017: Here, we ï¬nd that graduate students are underrepresented (27 percent of respondents compared to 41 percent of attendees), while undergraduate students are overrepresented (25 percent of respondents compared to 12 percent of attendees). Because we group responses in the career stage category into the categories â€œearly-careerâ€ (students and postdoctoral fellows), â€œlate-careerâ€ (faculty, research scientists), and â€œotherâ€ (e.g. participants from outside academia), this discrepancy has no bearing on the results we report. For gender, we grouped participants into â€œminorityâ€ (women and non-binary) and â€œnon-minorityâ€ (men) participants; similarly, for race and ethnicity, we divided participants into the categories â€œnon-whiteâ€ (all but Caucasian participants) and â€œwhiteâ€ (Caucasian). Note that demographic data for GHW and NHW is only available for 2016, while for AHW, data is available for both 2016 and 2017. Responding to any question in the survey was optional.
+Response rates for NHW (2016: 41 responses; 2017: 45 responses) and GHW (2016: 42 responses; 2017: 41 responses) were 100 percent in both years; the response rate for AHW was 71 percent (35 out of 49) in 2016 and 82 percent (37 out of 45) in 2017. The lower response rates for AHW can be explained by the generally lower rates of response for the time-delayed survey in 2016. In 2017, a number of participants did not attend the full week, and thus several attendees were not present on the last day when the survey was administered. For the AHW surveys, we checked whether the demographics of the respondents diff€ered signifcantly from those of the attendees overall in three relevant categories (career stage, racial/ethnic background, and gender identity) and found no significant difference for any of the groups except for career stage in 2017: Here, we find that graduate students are underrepresented (27 percent of respondents compared to 41 percent of attendees), while undergraduate students are overrepresented (25 percent of respondents compared to 12 percent of attendees). Because we group responses in the career stage category into the categories ``€œearly-career''€ (students and postdoctoral fellows), ``late-career'' (faculty, research scientists), and ``other"€ (e.g. participants from outside academia), this discrepancy has no bearing on the results we report. For gender, we grouped participants into ``€œminority'' (women and non-binary) and ``non-minority''€ (men) participants; similarly, for race and ethnicity, we divided participants into the categories ``non-white'' (all but Caucasian participants) and ``white'' (Caucasian). Note that demographic data for GHW and NHW is only available for 2016, while for AHW, data is available for both 2016 and 2017. Responding to any question in the survey was optional.
 
+Participants were asked to respond to statements regarding these topics using a six-point Likert-type scale. All questions were anonymously recorded. No responses were discarded, and no pre-processing was performed on the data. We test for correlations between demographic characteristics (independent variables) and question responses (dependent variables) using a standard $\chi^2$ test and compute the effect sizes via a bias-corrected version of Cram\'{e}r's V \citep{cramer1946,bergsma2013}, denoted $\phi_c$ in the manuscript. For a fairly permissive significant threshold of $\alpha < 0.05$, we require a $p$-value of $p < 0.0007$, corrected for $N_\mathrm{trials} = 36$ trials, to claim a significant effect as well as at least a medium effect size according to~\citep{cohen1988}.
 
+We note that while a non-significant $p$-value can reject a hypothesis, this is not automatically evidence for the corresponding null hypothesis, since a lack of statistical power could also originate in a too small sample size. For cases where the null hypothesis corresponds to the scientific hypothesis of interest, we perform an equivalence test based on the Cram\'{e}r's V effect size following~\citep{shiskina2018}. Following a bootstrap procedure, we generate 10,000 random data sets from the measured responses by sampling with replacement for each response variable and compute the corresponding effect size in order to generate confidence intervals around the measured Cram\'{e}r's V. For each hypothesis, we determine an equivalence bound for Cram\'{e}r's V for a medium-strength effect size based on \citet{cohen1988} given the number of degrees of freedom and calculate the $p$-value that the measured effect size could extend above\footnote{Note that because Cram\'{e}r's V is defined on the interval $[0,1]$, we only require an upper bound} this equivalence bound. If the latter hypothesis can be rejected, this indicates that the observed effect falls within the equivalence bounds and is statistically smaller than any effect deemed worthwhile. 
 
-Participants were asked to respond to statements regarding these topics using a six-point Likert-type scale. All questions were anonymously recorded. No responses were discarded, and no pre-processing was performed on the data. We tested for correlations between demographic characteristics (independent variables), questioned responses (dependent variables) using a standard $\chi^2$ test and computed the effect sizes via a bias-corrected version of Cram\'{e}r's V \citep{cramer1946,bergsma2013}, denoted $\phi_c$ in the manuscript. For a fairly permissive significant threshold of $\alpha < 0.05$, we require a $p$-value of $p < 0.0007$, corrected for $N_\mathrm{trials} = 36$ trials, to claim a significant effect as well as at least a small effect size according to~\citep{cohen1988}. The full analysis procedure is available online\footnote{See the repository: \url{https://github.com/uwescience/HackWeek-Writeup}}.
-
-\clearpage
+The full analysis procedure is available online\footnote{See the repository: \url{https://github.com/uwescience/HackWeek-Writeup}}.
 
 \section{Additional Statistical Results}
 
-Here we present the full results of the statistical analysis performed for the survey (Table \ref{tab:survey}). We tested for correlations between responses to a number of questions and demographic factors, most notably gender identity and racial/ethnic identity. The table also shows (1) the number of responses $N$ to each question for each hack week, (2) value of the $\chi^2$ and Cram\'{e}r's V statistics, $\chi^2$ and $\phi_c$, respectively, (3) the $p$-value associated with the $\chi^2$ statistic, and (4) the degrees of freedom for both $\chi^2$-test ($\mathrm{dof}_{\chi^2}$) and Cram\'{e}r's V ($\mathrm{dof}_{\phi_c}$). The data sets used in this data analysis are presented in Section \ref{sec:suppfigures}, Figures \ref{fig:corr1} through \ref{fig:corr12}
+Here we present the full results of the statistical analysis performed for the survey (Table \ref{tab:survey}). We tested for correlations between responses to a number of questions and demographic factors, most notably career stage, gender identity and racial/ethnic identity. The table also shows (1) the number of responses $N$ to each question for each hack week, (2) value of the $\chi^2$ and Cram\'{e}r's V statistics, $\chi^2$ and $\phi_c$, respectively, (3) the $p$-value associated with the $\chi^2$ statistic, (4) the degrees of freedom for both $\chi^2$-test ($\mathrm{dof}_{\chi^2}$) and Cram\'{e}r's V ($\mathrm{dof}_{\phi_c}$), and (5) the upper 95\% confidence interval for the Cram\'{e}r's V statistic ($\mathrm{CI}_{\mathrm{U}}$) as well as the corresponding $p$-value that the null hypothesis (the presence of an effect with moderate or higher strength) can be rejected, $p_\mathrm{eq}$ . The data sets used in this data analysis are presented in Section \ref{sec:suppfigures}, Figures \ref{fig:corr1} through \ref{fig:corr12}.
 
+For no combination of questions with a demographic variable, do we find a $p$-value below the trial-corrected significance threshold of $p < 0.0007$ quoted in Section \ref{sec:suppmaterials}. In the main text, we place these null results in context, and refer to the tests that were near significance, and were coupled with a moderate to large effect size, as an indication of where future research may be fruitful. The results also discuss the present study's limitations.
 
-For no combination of questions with a demographic variable, do we ï¬nd a $p$-value below the trial-corrected signiï¬cance threshold of $p < 0.0007$ quoted in Section \ref{sec:suppmaterials}. In the main text, we place these null results in context, and refer to the tests that were near significance, and were coupled with a moderate to large effect size, as an indication of where future research may be fruitful. The results also discuss the present study's limitations.
-
-\begin{table*}
+%\begin{landscape}
+\begin{sidewaystable}
 %\begin{table*}[hbtp]
 %\renewcommand{\arraystretch}{1.3}
 \footnotesize
 \caption{}
-\begin{threeparttable}
-\begin{tabularx}{18cm}{p{3.6cm}p{0.42cm}p{0.42cm}p{0.42cm}p{0.42cm}p{0.42cm}p{0.42cm}p{0.42cm}p{0.42cm}p{0.42cm}p{0.42cm}p{0.42cm}p{0.42cm}p{0.42cm}p{0.42cm}p{0.42cm}p{0.42cm}p{0.42cm}p{0.42cm}}
+\begin{threeparttable} 
+\begin{tabularx}{24cm}{p{4.1cm}p{0.4cm}p{0.4cm}p{0.4cm}p{0.4cm}p{0.4cm}p{0.4cm}p{0.4cm}p{1.0cm}p{0.4cm}p{0.4cm}p{0.4cm}p{0.4cm}p{0.4cm}p{0.4cm}p{0.4cm}p{1.0cm}p{0.4cm}p{0.4cm}p{0.4cm}p{0.4cm}p{0.4cm}p{0.4cm}p{0.4cm}p{1.0cm}}
 \toprule
-\textbf{Question} & \multicolumn{6}{c}{\textbf{Astro Hack Week}} & \multicolumn{6}{c}{\textbf{GeoHackWeek}} & \multicolumn{6}{c}{\textbf{NeuroHackWeek}} \\ \midrule
- & $N$ & $\mathrm{dof}_{\chi^2}^\emph{a}$ & $\chi^2$ & $p$ & $\mathrm{dof}_{\phi_c}^\emph{b}$ & $\phi_c$ & $N$ & $\mathrm{dof}_{\chi^2}^\emph{a}$ & $\chi^2$ & $p$ & $\mathrm{dof}_{\phi_c}^\emph{b}$ & $\phi_c$ & $N$ & $\mathrm{dof}_{\chi^2}^\emph{a}$ & $\chi^2$ & $p$ & $\mathrm{dof}_{\phi_c}^\emph{b}$ & $\phi_c$ \\ \midrule
-\multicolumn{16}{l}{\textbf{Comparison with career stage$^\emph{c}$}}  \\ \midrule
-New topics, tools, methods (a) & 61 & 10 & 5.64 & 0.85 & 1.93 & 0 & 36 & 6 & 2.51 & 0.87 & 1.88 & 0 & 41& 10 & 15.53 & 0.15 & 1.9 & 0.23 \\
-Improvement of research (b) & 61 & 6 &  9.89 & 0.13 & 1.93 & 0.18 & 35 & 4 & 12.41 & 0.02 & 1.88 & 0.35 & 40 & 6 & 7.42 & 0.28 & 1.90 & 0.13 \\
-Better science (c) & 59 & 6 & 3.79 & 0.70 & 1.93 & 0 & 35 & 4 & 10.61 & 0.03 & 1.88 & 0.31 & 40 & 4 &  5.06 & 0.29 & 1.90 & 0.11\\
-Teaching (d) & 61 & 10 & 13.65 & 0.19 & 1.93 & 0.17 & 36 & 10 & 13.68 & 0.19 & 1.88 & 0.22 & 40 & 10 & 6.90 & 0.74 & 1.90 & 0 \\ \midrule
-\multicolumn{16}{l}{\textbf{Gender Identity$^\emph{d}$}} \\ \midrule
-Improvement of research (b) & 60 & 3 & 2.08 & 0.56 & 0.98 & 0 & 35 & 2 & 5.26 & 0.07 & 0.97 & 0.30 & 40 & 3 & 7.62 & 0.05 & 0.97 & 0.34\\
-Teaching (d) & 61 & 5 & 7.30 & 0.20 & 0.98 & 0.19 & 36 & 5 & 12.71 & 0.26 & 0.97 & 0.46 & 40 &5 & 3.17 & 0.67 & 0.97 & 0 \\
-Connection building (e) & 61 & 4 & 3.70 & 0.45 & 0.98 & 0 & 36 & 3 & 5.89 & 0.12 & 0.97 & 0.28 & 41 & 3 & 4.42 & 0.22 & 0.98 & 0.18\\
-Valued contributions (f) & 57 & 4 & 5.98 & 0.20 & 0.98 & 0.18 & 34 & 5 & 9.46 & 0.09 & 0.97 & 0.36 & 38 & 5 & 6.75 & 0.34 & 0.97 & 0.21 \\ \midrule
-\multicolumn{16}{l}{\textbf{Racial/ethnic Identity$\emph{e}$}} \\ \midrule
-Improvement of research (b)  & 59 & 3 & 0.97 & 0.81 & 0.98 & 0 & 34 &2 & 0.01 & 0.99 & 0.97 & 0 & 39 & 3 & 2.79 & 0.43 & 0.97 & 0 \\
-Teaching (d) & 61 & 5 & 5.63 & 0.34 & 0.98 & 0.09 & 34 & 4 & 1.29 & 0.86 & 0.97 & 0 & 39 & 5 & 3.06 & 0.69 & 0.97 & 0 \\
-Connection building (e) & 61 & 4 & 1.64 & 0.80 & 0.98 & 0 & 34 & 3 & 8.42 & 0.04 & 0.97 & 0.40 & 40 & 3 & 3.49 & 0.32 & 0.97 & 0.10 \\
-Valued contributions (f) & 58 & 4 & 13.14 & 0.01 & 0.98 & 0.40 & 32 & 5 & 2.49 & 0.78 & 0.96 & 0 & 37 & 5 & 4.05 & 0.54 & 0.97 & 0 \\
+\textbf{Question} & \multicolumn{8}{c}{\textbf{Astro Hack Week}} & \multicolumn{8}{c}{\textbf{GeoHackWeek}} & \multicolumn{8}{c}{\textbf{NeuroHackWeek}} \\ \midrule
+ & $N$ & $\mathrm{dof}_{\chi^2}^\emph{a}$ & $\chi^2$ & $p$ & $\mathrm{dof}_{\phi_c}^\emph{b}$ & $\phi_c$ & $\mathrm{CI}_{\mathrm{U}}^{\emph{c}}$ & $p_{\mathrm{eq}}$ 
+ & $N$ & $\mathrm{dof}_{\chi^2}^\emph{a}$ & $\chi^2$ & $p$ & $\mathrm{dof}_{\phi_c}^\emph{b}$ & $\phi_c$ & $\mathrm{CI}_{\mathrm{U}}^{\emph{c}}$ & $p_{\mathrm{eq}}$ 
+ & $N$ & $\mathrm{dof}_{\chi^2}^\emph{a}$ & $\chi^2$ & $p$ & $\mathrm{dof}_{\phi_c}^\emph{b}$ & $\phi_c$ & $\mathrm{CI}_{\mathrm{U}}^{\emph{c}}$ &$p_{\mathrm{eq}}$  \\ \midrule
+\multicolumn{16}{l}{\textbf{Comparison with career stage$^\emph{d}$}}  \\ \midrule
+New topics, tools, methods (a) & 	61 & 10 &   5.64 & 0.85 & 1.93 & 0      & 0.26 & 0.12 &	36 & 6   &   2.51 & 0.87 & 1.88 & 0      & 0.31 & 0.16 &		41 & 10 & 15.53 & 0.15 & 1.90 & 0.23 & 0.32 & 0.17 \\
+Improvement of research (b) & 		61 &   6 &   9.89 & 0.13 & 1.93 & 0.18 & 0.24 & 0.08 &	35 & 4   & 12.41 & 0.02 & 1.88 & 0.35 & 0.28 & 0.13 &		40 &   6 &   7.42 & 0.28 & 1.90 & 0.13 & 0.31 & 0.14 \\
+Better science (c) & 				59 &   6 &   3.79 & 0.70 & 1.93 & 0      & 0.25 & 0.09 &	35 & 4   & 10.61 & 0.03 & 1.88 & 0.31 & 0.27 & 0.12 & 		40 &   4 &   5.06 & 0.29 & 1.90 & 0.11 & 0.28 & 0.12 \\
+Teaching (d) & 					61 & 10 & 13.65 & 0.19 & 1.93 & 0.17 & 0.28 & 0.13 &	36 & 10 & 13.68 & 0.19 & 1.88 & 0.22 & 0.34 & 0.20 & 		40 & 10 &   6.90 & 0.74 & 1.90 &      0 & 0.33 & 0.19 \\ \midrule
+\multicolumn{16}{l}{\textbf{Gender Identity$^\emph{e}$}} \\ \midrule
+Improvement of research (b) & 		60 &   3 & 2.08 & 0.56 & 0.98 & 0      & 0.26 & 0.02&		35 & 2 &   5.26 & 0.07 & 0.97 & 0.30 & 0.33 & 0.07 &		40 & 3 & 7.62 & 0.05 & 0.97 & 0.34 & 0.30 & 0.05\\
+Teaching (d) & 					61 &   5 & 7.30 & 0.20 & 0.98 & 0.19 & 0.30 & 0.05 & 	36 & 5 & 12.71 & 0.26 & 0.97 & 0      & 0.46 & 0.11 & 		40 & 5 & 3.17 & 0.67 & 0.97 & 0      & 0.36 & 0.11\\
+Connection building (e) & 			61 &   4 & 3.70 & 0.45 & 0.98 & 0      & 0.28 & 0.03 & 	36 & 3 &   5.89 & 0.12 & 0.97 & 0.28 & 0.34 & 0.08 &		41 & 3 & 4.42 & 0.22 & 0.98 & 0.18 & 0.32 & 0.07 \\
+Valued contributions (f) & 			57 &   4 & 5.98 & 0.20 & 0.98 & 0.18 & 0.28 & 0.03 &	34 & 5 &   9.46 & 0.09 & 0.97 & 0.36 & 0.34 & 0.08 &		38 & 5 & 6.75 & 0.34 & 0.97 & 0.21 & 0.35 & 0.10\\ \midrule
+\multicolumn{16}{l}{\textbf{Racial/ethnic Identity$\emph{f}$}} \\ \midrule
+Improvement of research (b)  & 	59 &   3 & 0.97   & 0.81 & 0.98 & 0      & 0.27 & 0.03 &	34 & 2 & 0.01 & 0.99 & 0.97 & 0      & 0.34 & 0.08 &			39 & 3 & 2.79 & 0.43 & 0.97 & 0      & 0.32 & 0.06 \\
+Teaching (d) & 					61 &   5 & 5.63   & 0.34 & 0.98 & 0.09 & 0.31 & 0.05 &	34 & 4 & 1.29 & 0.86 & 0.97 & 0      & 0.39 & 0.12 & 			39 & 5 & 3.06 & 0.69 & 0.97 & 0      & 0.38 & 0.12 \\
+Connection building (e) & 			61 &   4 & 1.64   & 0.80 & 0.98 & 0      & 0.28 & 0.04 &	34 & 3 & 8.42 & 0.04 & 0.97 & 0.40 & 0.36 & 0.09 &			40 & 3 & 3.49 & 0.32 & 0.97 & 0.10 & 0.33 & 0.07 \\
+Valued contributions (f) & 			58 &   4 & 13.14 & 0.01 & 0.98 & 0.40 & 0.29 & 0.04 &	32 & 5 & 2.49 & 0.78 & 0.96 & 0      & 0.40 & 0.14 &			37 & 5 & 4.05 & 0.54 & 0.97 & 0      & 0.36 & 0.11\\
 \bottomrule
 \end{tabularx}
    \begin{tablenotes}
       \item{Respondents to a post-event evaluation survey indicate their level of agreement on a six-point Likert-type scale to a range of statements (associated letters correspond to panels in Figure 2 in the main text). Results are for hack weeks held in 2016 and 2017 for AHW and in 2016 for GHW and NHW, respectively. The number of respondents for each question is included in the table above. Additional figures showing the distributions of responses for each question are available in Section 3 of the SM below.}
       \item[\emph{a}]{While the range of Likert items was the same for every question, the degrees of freedom for $\chi^2$ and Cram\'{e}r's V may differ depending on the number of items with non-zero responses, and the number of non-zero items in the independent variable.}
       \item[\emph{b}]{The degrees of freedom for Cram\'{e}r's V corrected according to~\citep{bergsma2013}}
-      \item[\emph{c}]{Responses to the question of career stage were grouped into three responses: early-career stage; faculty and research scientists; other}
-      \item[\emph{d}]{Responses to the question of gender identity were grouped with respect to representation within the field of study into two categories: non-minority; minority}
-      \item[\emph{e}]{Responses to the question of racial and ethnic identity were grouped with respect to representation within the field of study into two categories: white; non-white}
+      \item[\emph{c}]{The bootstrapped upper $95\%$ confidence intervals for the Cram\'{e}r's V statistic derived according to~\citep{shiskina2018}.}
+      \item[\emph{d}]{Responses to the question of career stage were grouped into three categories: early-career stage; faculty and research scientists; other}
+      \item[\emph{e}]{Responses to the question of gender identity were grouped with respect to representation within the field of study into two categories: non-minority; minority}
+      \item[\emph{f}]{Responses to the question of racial and ethnic identity were grouped with respect to representation within the field of study into two categories: white; non-white}
 \end{tablenotes}
 
 \end{threeparttable}
 \label{tab:survey}
 %\end{table*}
-\end{table*}
+\end{sidewaystable}
+%\end{landscape}
 
 \clearpage
 
 \section{Additional Figures}
 \label{sec:suppfigures}
-Here, we present a number of additional figures related to the survey data presented in the main text. The stacked bar charts presented here provide anothe view of the data that produced the results quoted in Table 1 above.
+Here, we present a number of additional figures related to the survey data presented in the main text. The stacked bar charts presented here provide another view of the data that produced the results quoted in Table 1 above.
 
 \subsection{Career stage}
 
@@ -436,7 +441,7 @@ To summarize, break-out sessions:
 \item Consist of short tutorials about a specific topic or practical skill not covered in the tutorials
 \item Are more informal and may be taught to a subset of interested participants
 \item Should be limited to one to two per day and take no longer than 45 minutes to avoid conflicts with project-work
-\item Can be daunting to teach, especially for junior participants, and 
+\item Can be daunting to teach, especially for junior participants, and
 \item Require the organizing committee to be pro-active about encouraging volunteer teachers.
 \end{itemize}
 
@@ -467,9 +472,7 @@ Less severely, another major concern is that IS inhibits risk taking: Participan
  Many of the goals of a hack week, including the successful completion of projects, lateral knowledge transfer, and community building are hampered by IS.
  Thus, we are working within our hack weeks to mitigate IS using various techniques.
 With respect to minority participants, ensuring adequate representation can decrease feelings of otherness and may help reduce IS.
-More generally, being open about the presence and prevalence of IS can help participants feel more at ease. %(e.g. one Astro Hack Week participant remarked in a survey, \textit{''I really appreciated the direct acknowledgement of impostor syndrome on the first day.
-%I think it helped ease the feeling!!``}).
-Additionally, role models are very effective at encouraging positive behavior: Asking participants with prior experience at hack weeks at all academic levels to ask questions, even when they might know the answer, can help foster an inclusive environment that rewards risk taking. We also invited our organizing committees to model open communication about their own handling of IS through the course of their career. We found that transparency about one's own uncertainty, especially from community leaders, helped create a hospitable atmosphere and removed barriers.
+More generally, being open about the presence and prevalence of IS can help participants feel more at ease. Additionally, role models are very effective at encouraging positive behavior: Asking participants with prior experience at hack weeks at all academic levels to ask questions, even when they might know the answer, can help foster an inclusive environment that rewards risk taking. We also invited our organizing committees to model open communication about their own handling of IS through the course of their career. We found that transparency about one's own uncertainty, especially from community leaders, helped create a hospitable atmosphere and removed barriers.
 
 
 \subsection{What to do after hack week}
