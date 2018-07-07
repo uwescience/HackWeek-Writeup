@@ -5,11 +5,11 @@
   year={in press},
 }
 
-@misc{cohen1988,
+@book{cohen1988,
   title={Statistical power analysis for the behavioral sciences 2nd edn},
   author={Cohen, Jacob},
   year={1988},
-  publisher={Erlbaum Associates, Hillsdale}
+  publisher={Routledge (New York)}
 }
 
 @book{cramer1946,
@@ -120,7 +120,7 @@ year = {2004},
 @article{demasi2017,
 title={"Complementing the classroom: Advancing data science education through ad hoc efforts"},
 author={deMasi, Orianna and Paxton, Alexandra},
-year = "submitted",
+year = "in press",
 }
 
 @article{baker2016,
@@ -250,9 +250,8 @@ abstract = "The Human Connectome Project (HCP) is an ambitious 5-year effort to 
     abstract    = "Science hackathons can help academics, particularly those in
                    the early stage of their careers, to build collaborations and
                    write research proposals.",
-    journal     = "Elife",
+    journal     = "eLfe",
     volume      =  4,
-    pages       = "e09944",
     month       =  "23~" # jul,
     year        =  2015,
     keywords    = "careers in science; collaboration; cutting edge; early career
@@ -331,14 +330,13 @@ publisher = {IEEE Computer Society},
 address = {Los Alamitos, CA, USA},
 }
 
-
-@unpublished{Drouhard2017,
-  author = {Drouhard, Margaret and Tanweer, Anissa and Fiore-Gartland, Brittany},
-	title = {"A Typology of Hackathon Events"},
-	year = {2017},
-	howpublished={"Paper presented at the Hacking and Making at Time-Bounded Events: Current Trends and Next Steps in Research and Event Design"},
-	}
-
+@inproceedings{Drouhard2017,
+  title={A Typology of Hackathon Events},
+  author={Drouhard, Margaret and Tanweer, Anissa and Fiore-Gartland, Brittany},
+  booktitle={Hacking at Time-Bound Events Workshop at Computer Supported Cooperative Work 2016 (CSCW'16)},
+  pages={pp. 1?4},
+  year={2017}
+}
 
 @article{lawrence_advances_2015,
 	title = {Advances in transdisciplinarity: {Epistemologies}, methodologies and processes},
@@ -363,7 +361,7 @@ address = {Los Alamitos, CA, USA},
 	{Figueira}, P. and {Oshagh}, M. and {Santerne}, A. and {Santos}, N.~C.
 	},
     title = "{Uncovering the planets and stellar activity of CoRoT-7 using only radial velocities}",
-  journal = {aap},
+  journal = {Astronomy \& Astrophysics},
 archivePrefix = "arXiv",
    eprint = {1601.07495},
  primaryClass = "astro-ph.EP",
@@ -408,21 +406,6 @@ language={English},
 url={http://ezproxy.library.nyu.edu:2048/login?url=http://search.proquest.com/docview/1682223499?accountid=12768},
 }
 
-
-
-@ARTICLE{Clance1978-ef,
-  title   = "The imposter phenomenon in high achieving women: Dynamics and
-             therapeutic intervention",
-  author  = "Clance, Pauline Rose and Imes, Suzanne A",
-  journal = "Group Dyn.",
-  volume  =  15,
-  number  =  3,
-  pages   = "241--247",
-  year    =  1978
-}
-
-
-
 @ARTICLE{Parkman2016-ro,
   title     = "The imposter phenomenon in higher education: Incidence and
                impact",
@@ -440,9 +423,9 @@ url={http://ezproxy.library.nyu.edu:2048/login?url=http://search.proquest.com/do
 @article{keshavan2017,
 title = "Mindcontrol: A web application for brain segmentation quality control",
 journal = "NeuroImage",
-volume = "",
-number = "",
-pages = "",
+volume = "15",
+number = "170",
+pages = "365-372",
 year = "2017",
 note = "",
 issn = "1053-8119",
@@ -461,7 +444,7 @@ author = "Anisha Keshavan and Esha Datta and Ian M. McDonough and Christopher R.
 	publisher = {Pensoft Publishers},
 	abstract = {A constant problem developmental neuroimagers face is in-scanner head motion. Children move more than adults and this has led to concerns that developmental changes in resting-state connectivity measures may be artefactual. Furthermore, children are challenging to recruit into studies and therefore researchers have tended to take a permissive stance when setting exclusion criteria on head motion. The literature is not clear regarding our central question: How much motion is too much? Here, we systematically examine the effects of multiple motion exclusion criteria at different sample sizes and age ranges in a large openly available developmental cohort (ABIDE; http://preprocessed-connectomes-project.org/abide). We checked 1) the reliability of resting-state functional magnetic resonance imaging (rs-fMRI) pairwise connectivity measures across the brain and 2) the accuracy with which we can separate participants with autism spectrum disorder from typically developing controls based on their rs-fMRI scans using machine learning. We find that reliability on average is primarily sensitive to the number of participants considered, but that increasingly permissive motion thresholds lower case-control prediction accuracy for all sample sizes.},
 	issn = {},
-	pages = {e12569},
+	pages = {},
 	URL = {https://doi.org/10.3897/rio.3.e12569},
 	eprint = {https://doi.org/10.3897/rio.3.e12569},
 	journal = {Research Ideas and Outcomes}
@@ -477,7 +460,7 @@ author = "Anisha Keshavan and Esha Datta and Ian M. McDonough and Christopher R.
 	publisher = {Pensoft Publishers},
 	abstract = {Cluster-viz is a web application that provides a platform for cluster-based interactive quality-control of tractography algorithm outputs. This tool facilitates the creation of white matter fascicle models by employing a cluster-based approach to allow the user to select streamline bundles for inclusion/exclusion in the final fascicle model. This project was started at the 2016 Neurohackweek and BrainHack events and is still under development. We welcome contributions to the Cluster-viz github repository (https://github.com/kesshijordan/Cluster-viz).},
 	issn = {},
-	pages = {e12394},
+	pages = {},
 	URL = {https://doi.org/10.3897/rio.3.e12394},
 	eprint = {https://doi.org/10.3897/rio.3.e12394},
 	journal = {Research Ideas and Outcomes}
@@ -493,7 +476,7 @@ author = "Anisha Keshavan and Esha Datta and Ian M. McDonough and Christopher R.
 	publisher = {Pensoft Publishers},
 	abstract = {Currently, the process of obtaining a 3D model from a structural MRI requires specialized knowlege and skills. This is not due to the fundamental difficulty and complexity of the process, but is a result of the fact that the neccessary tools were developed for and by neuroimaging researchers. This project describes a publically available utility implemented as a Docker image that takes a structural MRI as input, and gives files for 3D printing as output, along with a rendered image of the surface.},
 	issn = {},
-	pages = {e13394},
+	pages = {},
 	URL = {https://doi.org/10.3897/rio.3.e13394},
 	eprint = {https://doi.org/10.3897/rio.3.e13394},
 	journal = {Research Ideas and Outcomes}
@@ -503,7 +486,7 @@ author = "Anisha Keshavan and Esha Datta and Ian M. McDonough and Christopher R.
    author = {{Hahn}, C. and {Vakili}, M. and {Walsh}, K. and {Hearin}, A.~P. and
 	{Hogg}, D.~W. and {Campbell}, D.},
     title = "{Approximate Bayesian computation in large-scale structure: constraining the galaxy-halo connection}",
-  journal = {mnras},
+  journal = {Monthly Notices of the Royal Astronomical Society},
 archivePrefix = "arXiv",
    eprint = {1607.01782},
  keywords = {methods: data analysis, methods: statistical, galaxies: haloes, dark matter, large-scale structure of Universe},
@@ -520,7 +503,7 @@ archivePrefix = "arXiv",
    author = {{Price-Whelan}, A.~M. and {Hogg}, D.~W. and {Foreman-Mackey}, D. and
 	{Rix}, H.-W.},
     title = "{The Joker: A Custom Monte Carlo Sampler for Binary-star and Exoplanet Radial Velocity Data}",
-  journal = {apj},
+  journal = {The Astrophysical Journal},
 archivePrefix = "arXiv",
    eprint = {1610.07602},
  primaryClass = "astro-ph.SR",
@@ -538,7 +521,7 @@ archivePrefix = "arXiv",
 @ARTICLE{gullysantiago2015,
    author = {{Gully-Santiago}, M. and {Jaffe}, D.~T. and {White}, V.},
     title = "{Optical characterization of gaps in directly bonded Si compound optics using infrared spectroscopy}",
-  journal = {ao},
+  journal = {Applied Optics},
 archivePrefix = "arXiv",
    eprint = {1511.01183},
  primaryClass = "astro-ph.IM",
@@ -588,7 +571,7 @@ archivePrefix = "arXiv",
                  the 10-year comparison period. The findings suggest that
                  transdisciplinary center grants create benefits for both
                  scientific productivity and collaboration.",
-  journal     = "Am. J. Prev. Med.",
+  journal     = "American Journal of Preventive Medicine",
   volume      =  42,
   number      =  2,
   pages       = "157--163",
@@ -851,7 +834,7 @@ archivePrefix = "arXiv",
 @inproceedings{kluyver2016jupyter,
   title={Jupyter Notebooks-a publishing format for reproducible computational workflows.},
   author={Kluyver, Thomas and Ragan-Kelley, Benjamin and P{\'e}rez, Fernando and Granger, Brian E and Bussonnier, Matthias and Frederic, Jonathan and Kelley, Kyle and Hamrick, Jessica B and Grout, Jason and Corlay, Sylvain and others},
-  booktitle={ELPUB},
+  booktitle={Positioning and Power in Academic Publishing: Players, Agents and Agendas},
   pages={87--90},
   year={2016}
 }
@@ -859,7 +842,7 @@ archivePrefix = "arXiv",
 
 @Conference{holdgraf2017portable,
   title={Portable learning environments for hands-on computational instruction: Using container-and cloud-based technology to teach data science},
-  author={Holdgraf, C. and Culich, A. and {\bf Rokem, A.} and Deniz, F. and Alegro, M. and Ushizima, D.},
+  author={Holdgraf, C. and Culich, A. and Rokem, A. and Deniz, F. and Alegro, M. and Ushizima, D.},
   Booktitle={Practice and Experience in Advanced Research Computing, 2017},
   year={2017},
   }
@@ -942,7 +925,7 @@ archivePrefix = "arXiv",
               novel discovery. By pooling multiple international data sets,
               ABIDE is expected to accelerate the pace of discovery setting the
               stage for the next generation of ASD studies.",
-  journal  = "Mol. Psychiatry",
+  journal  = "Molecular Psychiatry",
   volume   =  19,
   number   =  6,
   pages    = "659--667",
